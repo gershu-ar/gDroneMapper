@@ -23,7 +23,6 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 
 > [!TIP]
 > Click here for a live example of a generated map: [DEMO](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)<br>
-> Note: There were no JPGs scanned, only DNG and MP4 present in that batch.
 
 > [!NOTE] 
 > Tested with files produced by a DJI Air 3S.  gDroneMapper should be compatible with all DJI generated pictures and videos.  Other brands too if standarized EXIF/XMP information is present.
@@ -93,7 +92,6 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 
 > [!TIP]
 > Click aquí para acceder un ejemplo real de un mapa generado: [DEMO](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)<br>
-> Nota: en ese escaneo no hubo archivos JPG presentes, sólo DNG y MP4.
 
 > [!NOTE]
 > Testeado con archivos generados por un DJI Air 3S.  gDroneMapper debería ser compatible con todos los modelos de DJI.  Otras marcas también en tanto y en cuanto respeten la nomenclatura en el perfil EXIF/XMP de los archivos.
