@@ -13,7 +13,8 @@ INDEX / ÍNDICE<br>
 ### 🚁 gDroneMapper is here to save the day.
 It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.
 
-> Map live preview: https://gershu.ar/playground/gDroneMapper_20251019_091450.html 
+> Map live preview: https://gershu.ar/playground/gDroneMapper_20251019_091450.html<br><br>
+> Tested with files produced by a DJI Air 3S.  gDroneMapper should be compatible with all DJI generated pictures and videos.  Other brands too if standarized EXIF/XMP information is present.
 
 Key Features:
 
@@ -60,7 +61,8 @@ Includes ExifTool (https://exiftool.org) - Kudos to Phil Harvey for this awesome
 ### 🚁gDroneMapper está aquí para ayudarte. 
 Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría detallados para generar un mapa único y agrupado. Toda la información recopilada se visualiza bajo pines numerados, con una salida en un archivo HTML simple, altamente compatible y portable.
 
-> Preview del mapa: https://gershu.ar/playground/gDroneMapper_20251019_091450.html 
+> Preview del mapa: https://gershu.ar/playground/gDroneMapper_20251019_091450.html<br><br>
+> Teasteado con archivos generados por un DJI Air 3S.  gDroneMapper debería ser compatible con todos los modelos de DJI.  Otras marcas también en tanto y en cuanto respeten la nomenclatura en el perfil EXIF/XMP de los archivos.
 
 Características Clave: 📍
 
