@@ -1,6 +1,6 @@
 <img src="https://github.com/gershu-ar/gDroneMapper/blob/main/Screenshot_1.png?raw=true" height="300"> <img src="https://github.com/gershu-ar/gDroneMapper/blob/main/Screenshot_3.png?raw=true" width="500">
 
-<a name="up">/<a>
+<a name="up"></a>
 
 ****************
 ## INDEX / ÍNDICE<br>
@@ -11,18 +11,20 @@
 <a name="english"></a>
 ## (1) 🇺🇸 ENGLISH
 
-... Have you ever taken a drone picture and later asked yourself, "What exactly was I looking at?"—unsure of the camera's precise orientation and never really getting a clear answer?<br>
-... Are you tired of manually plotting hundreds of pictures and videos onto a map to reconstruct a serious forensic analysis or to solve a problem?<br>
+... Have you ever taken a drone picture and later asked yourself, "What exactly was I looking at?"—unsure of the camera's precise orientation and never really getting a clear answer?<br><br>
+... Are you tired of manually plotting hundreds of pictures and videos onto a map to reconstruct a serious forensic analysis or to solve a problem?<br><br>
 ... Is the task of mapping terrain and keeping track of hundreds of generated files making your work tedious and cumbersome?
 
 ### 🚁 gDroneMapper is here to save the day.
 It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.
 
 > [!TIP]
-> Map live preview: https://gershu.ar/playground/gDroneMapper_20251019_091450.html<br><br>
+> Map live preview: https://gershu.ar/playground/gDroneMapper_20251019_091450.html
+
+> [!NOTE] 
 > Tested with files produced by a DJI Air 3S.  gDroneMapper should be compatible with all DJI generated pictures and videos.  Other brands too if standarized EXIF/XMP information is present.
 
-Key Features:
+### 📍 Key Features:
 
 - Visual Coverage: For each image file, heading lines and cones of view (POVs) are created and graphically represented. This is based on mathematical calculations of the extracted data, providing a sense of visual coverage and the precise center of the image for reference. (This feature is available only for pictures, not videos, due to limitations in DJI's proprietary format. However, video pins and core telemetry are still presented.)
 
@@ -41,12 +43,15 @@ Key Features:
 - Technology Stack / Architecture: The backend (processor) is coded and compiled in Golang (compressed with UPX).  The frontend (GUI) is coded in C# + .NET 9.0 + WinForms (all required runtimes are self contained in the executable file, thus making a larger file).
 
 ### How to get started:
-- Windows 10/11: Download "gDroneMapper_10Final_x64.zip", extract the files to a folder of your choice, and run gDroneMapper.exe. It is a portable app and can run directly from removable media.
+- Windows 10/11: Download [gDroneMapper_10Final_x64.zip](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64.zip), extract the files to a folder of your choice, and run gDroneMapper.exe. It is a portable app and can run directly from removable media.
 
+> [!WARNING]
 > If Windows's SmartScreen or any similar prompt appears, simply bypass it. This is a safe application and contains no viruses.<br>
 > If you are unsure, you can compile the code yourself (the /SOURCE/ folder contains both the backend and frontend code).
 
-Current version: <b>1.0 Final</b><br>
+Current version: **1.0 Final**<br>
+Published: **19/OCT/2025**
+
 Coded with ❤️ in 🇦🇷 Argentina<br>
 www.gershu.ar
 
@@ -68,10 +73,12 @@ Includes ExifTool (https://exiftool.org) - Kudos to Phil Harvey for this awesome
 Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría detallados para generar un mapa único y agrupado. Toda la información recopilada se visualiza bajo pines numerados, con una salida en un archivo HTML simple, altamente compatible y portable.
 
 > [!TIP]
-> Preview del mapa: https://gershu.ar/playground/gDroneMapper_20251019_091450.html<br><br>
-> Teasteado con archivos generados por un DJI Air 3S.  gDroneMapper debería ser compatible con todos los modelos de DJI.  Otras marcas también en tanto y en cuanto respeten la nomenclatura en el perfil EXIF/XMP de los archivos.
+> Preview del mapa: https://gershu.ar/playground/gDroneMapper_20251019_091450.html
 
-Características Clave: 📍
+> [!NOTE]
+> Testeado con archivos generados por un DJI Air 3S.  gDroneMapper debería ser compatible con todos los modelos de DJI.  Otras marcas también en tanto y en cuanto respeten la nomenclatura en el perfil EXIF/XMP de los archivos.
+
+### 📍 Características claves:
 
 - Cobertura Visual: Para cada archivo de imagen, se crean y representan gráficamente líneas de rumbo y conos de visión (POVs). Esto se basa en cálculos matemáticos de los datos extraídos, proporcionando una idea de la cobertura visual y el centro preciso de la imagen como referencia. (Esta función solo está disponible para fotografías, no para videos, debido a limitaciones en el formato propietario de DJI. Sin embargo, los pines de video y la telemetría básica se presentan de igual manera.)
 
@@ -90,12 +97,15 @@ Características Clave: 📍
 - Tecnología / Arquitectura: El backend (procesador) está codificado y compilado en Golang (comprimid con UPX).  El frontend (GUI) en C# + .NET 9.0 + WinForms (todos los archivos .NET necesarios están embebidos en el ejecutable, por ello el archivo tan extenso).
 
 ### Cómo empezar:
-- Windows 10/11: Descarga "gDroneMapper_10Final_x64.zip", extrae los archivos a una carpeta de tu elección y ejecuta gDroneMapper.exe. Es una aplicación portable y puede ejecutarse directamente desde medios extraíbles.
+- Windows 10/11: [gDroneMapper_10Final_x64.zip](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64.zip), extrae los archivos a una carpeta de tu elección y ejecuta gDroneMapper.exe. Es una aplicación portable y puede ejecutarse directamente desde medios extraíbles.
 
+> [!WARNING]
 > Si aparece Windows SmartScreen o cualquier aviso similar, simplemente ignóralo. Es una aplicación segura y no contiene virus.<br>
 > Si no estás seguro, puedes compilar el código tú mismo (la carpeta /SOURCE/ contiene el código tanto para el backend como para el frontend).
 
-Versión actual: <b>1.0 Final</b><br>
+Versión actual: **1.0 Final**<br>
+Publicada: **19/OCT/2025**
+
 Codificado con ❤️ en 🇦🇷 Argentina<br>
 www.gershu.ar
 
