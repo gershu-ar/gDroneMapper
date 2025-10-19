@@ -57,8 +57,10 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
   Download [gDroneMapper_10Final_x64.zip](https://raw.githubusercontent.com/gershu-ar/gDroneMapper/main/gDroneMapper_10Final_x64.zip), extract the files to a folder of your choice, and run "gDroneMapper.exe" to use.<br>You can also run "forrest.exe" by itself (it's the backend), it will read the configuration from "config.json" and process it accordingly.
 
 > [!WARNING]
-> If Windows's SmartScreen or any similar prompt appears, simply bypass it. This is a safe application and contains no viruses.<br>
-> If you are unsure, you can compile the code yourself (the /SOURCE/ folder contains both the backend and frontend code).
+> If Windows's SmartScreen or any similar prompt appears, simply bypass it. This is a safe application and contains no viruses.
+
+> [!TIP]
+> If you are unsure, you can compile the source code yourself (the /SOURCE/ folder contains both the back and frontend).
 
 Coded with ❤️ in 🇦🇷 Argentina<br>
 www.gershu.ar
@@ -119,8 +121,10 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
   Descarga [gDroneMapper_10Final_x64.zip](https://raw.githubusercontent.com/gershu-ar/gDroneMapper/main/gDroneMapper_10Final_x64.zip), extrae los archivos en la carpeta de tu elección, y ejecuta "gDroneMapper.exe" para utilizar<br>También podés ejecutar "forrest.exe" por su cuenta (es el backend): leerá la configuración en config.json y ejecutará acorde.
 
 > [!WARNING]
-> Si aparece Windows SmartScreen o cualquier aviso similar, simplemente ignóralo. Es una aplicación segura y no contiene virus.<br>
-> Si no estás seguro, puedes compilar el código tú mismo (la carpeta /SOURCE/ contiene el código tanto para el backend como para el frontend).
+> Si aparece Windows SmartScreen o cualquier aviso similar, simplemente ignóralo. Es una aplicación segura y no contiene virus.
+
+> [!TIP]
+> Si no estás segurx, puedes compilar el código tú mismo (la carpeta /SOURCE/ contiene el código fuente tanto para el back como para el frontend).
 
 Codificado con ❤️ en 🇦🇷 Argentina<br>
 www.gershu.ar
