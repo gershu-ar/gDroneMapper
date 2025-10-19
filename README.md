@@ -43,7 +43,7 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 
 - Simple Distribution: The application consists of just three files: the backend, the frontend, and the configuration file.
 
-- Technology Stack / Architecture: The backend (processor) is coded and compiled in Golang (compressed with UPX).  The frontend (GUI) is coded in C# + .NET 9.0 + WinForms (all required runtimes are self contained in the executable file, thus making a larger file).
+- Technology Stack / Architecture: The backend (processor) is coded and compiled in Golang (compressed with UPX).  The frontend (GUI) is coded in C# + .NET 9.0 + WinForms (uncompressed, all required runtimes are self contained in the executable file, thus making a larger file).
 
 ### Let's get started! (Windows 10/11 x64)
 - **INSTALLER VERSION** (recommended)<br>
@@ -56,7 +56,7 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 > If you are unsure, you can compile the code yourself (the /SOURCE/ folder contains both the backend and frontend code).
 
 > [!NOTE]
-> NERD CURIOSITY<br>**Why is the manual / portable version twice the size of the installer version?**<br>_Only God knows.  Installer version (.msi) has the same 3 files packed as in the manual / portable .zip.  Visual Studio made an **amazing job** by compressing the files way beyond the realm of the imagination.  As a side note, gDroneMapper.exe (frontend) is uncompressed and forrest.exe (backend) is compressed with UPX.  gDroneMapper.exe is a "fat boy" (around 110 MBs) because it includes all the needed .NET 9.0 runtimes in order not to depend on external / extra files.  Both front and backend are 100% self contained._
+> NERD CURIOSITY<br>**Why is the manual / portable version twice the size of the installer version?**<br>_Only God knows.  Installer version (.msi) has the same 3 files packed as in the manual / portable .zip.  Visual Studio made an **amazing job** by compressing the files way beyond the realm of the imagination._
 
 Coded with ❤️ in 🇦🇷 Argentina<br>
 www.gershu.ar
@@ -103,7 +103,7 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 
 - Distribución Simple: La aplicación consta de solo tres archivos: el backend, el frontend y el archivo de configuración.
 
-- Tecnología / Arquitectura: El backend (procesador) está codificado y compilado en Golang (comprimid con UPX).  El frontend (GUI) en C# + .NET 9.0 + WinForms (todos los archivos .NET necesarios están embebidos en el ejecutable, por ello el archivo tan extenso).
+- Tecnología / Arquitectura: El backend (procesador) está codificado y compilado en Golang (comprimid con UPX).  El frontend (GUI) en C# + .NET 9.0 + WinForms (sin comprimir, todos los archivos .NET necesarios están embebidos en el ejecutable, por ello el archivo tan extenso).
 
 ### ¡Empecemos! (Windows 10/11 x64)
 - **VERSÓN CON INSTALADOR** (recomendada)<br>
@@ -116,7 +116,7 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 > Si no estás seguro, puedes compilar el código tú mismo (la carpeta /SOURCE/ contiene el código tanto para el backend como para el frontend).
 
 > [!NOTE]
-> CURIOSIDADES DE NERD<br>**¿Por qué la versión manual / portable es el doble de grande que la versión de instalador?**<br>_Sólo Dios sabe.  La versión con instalador (.msi) tiene los 3 mismos archivos que la versión manual / portable.  Visual Studio hizo un trabajo *asombroso* al comprimir los archivos más allá de los límites de la imaginación.  Como nota aparte, gDroneMapper.exe (frontend) está sin comprimir mientras que forrest.exe (backend) está comprimido con UPX.  gDroneMapper.exe es un "niño gordo" (algo de 110 MBs) porque incluye todos los archivos necesarios para ejecutar la interfaz en .NET 9.0 sin necesidad de galerías o archivos externos.  Front y backends 100% contenidos en sí mismos._
+> CURIOSIDADES DE NERD<br>**¿Por qué la versión manual / portable es el doble de grande que la versión de instalador?**<br>_Sólo Dios sabe.  La versión con instalador (.msi) tiene los 3 mismos archivos que la versión manual / portable.  Visual Studio hizo un trabajo *asombroso* al comprimir los archivos más allá de los límites de la imaginación._
 
 Codificado con ❤️ en 🇦🇷 Argentina<br>
 www.gershu.ar
