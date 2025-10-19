@@ -14,9 +14,9 @@
 Current version: **1.0 Final**<br>
 Published: **19/OCT/2025**
 
--> Have you ever taken a drone picture and later asked yourself, "What exactly was I looking at?"—unsure of the camera's precise orientation and never really getting a clear answer?<br><br>
--> Are you tired of manually plotting hundreds of pictures and videos onto a map to reconstruct a serious forensic analysis or to solve a problem?<br><br>
--> Is the task of mapping terrain and keeping track of hundreds of generated files making your work tedious and cumbersome?
+❔ Have you ever taken a drone picture and later asked yourself, **_"What the [phoque](https://www.youtube.com/watch?v=OMuHtTGqu6o) is that on the horizon?"_** — unsure of the camera's precise orientation and never really getting a clear answer?<br><br>
+❓ Are you fed úp of manually plotting hundreds of pictures and videos onto a map to reconstruct a serious forensic analysis or to solve a problem only to discover you cannot export the information without **paying first**?<br><br>
+⁉️ Is the task of mapping terrain and keeping track of hundreds of generated files making your work tedious and cumbersome while your cat demands his litter to be cleaned **[right meow](https://www.youtube.com/watch?v=5EkwBEL4MZw)**?
 
 ## 🚁 gDroneMapper is here to save the day.
 It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.
@@ -65,7 +65,7 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 > [!NOTE]
 > **KNOWN BUGS**<br>
 >  - None<br><br>
-> If you find a bug, want to give feedback or ask for a feature, feel free to contact me directly on [Instagram](https://www.instagram.com/gershu.ar) via a direct message.<br>I will be setting up better direct contact tools.
+> If you find a bug, want to give feedback or ask for a feature, feel free to contact me directly on [Instagram](https://www.instagram.com/gershu.ar) via a direct message.<br>I will be setting up better direct contact tools shortly.
 
 Coded with ❤️ in 🇦🇷 Argentina<br>
 www.gershu.ar
@@ -73,7 +73,7 @@ www.gershu.ar
 gDroneMapper's source codes and compiled Windows executables are provided "as is".<br>
 [^1]: ExifTool (https://exiftool.org) - Kudos to Phil Harvey for this awesome tool <3
 
-[[Subir / Up]](#up)
+⬆️ [[Subir / Up]](#up)
 
 
 *********
@@ -83,9 +83,9 @@ gDroneMapper's source codes and compiled Windows executables are provided "as is
 Versión actual: **1.0 Final**<br>
 Publicada: **19/OCT/2025**
 
--> ¿Alguna vez tomaste una foto con tu dron y luego te preguntaste, "¿Qué estaba viendo exactamente?"—sin saber la orientación precisa de la cámara y sin poder obtener una respuesta clara?<br><br>
--> ¿Estás cansado de trazar manualmente cientos de fotos y videos en un mapa para reconstruir un análisis forense 🔍 serio o para resolver un problema?<br><br>
--> ¿La tarea de mapear terrenos 🗺️ y llevar un registro de cientos de archivos generados está volviendo tu trabajo tedioso y engorroso?
+❔ ¿Alguna vez tomaste una foto con tu dron y luego te preguntaste, "**_¿¿Pero a qué m______ estaba apuntando en ese momento??_**" — sin saber la orientación precisa de la cámara y sin poder obtener una respuesta clara?<br><br>
+❓ ¿Estás cansado de trazar manualmente cientos de fotos y videos en un mapa para reconstruir un análisis forense 🔍 serio o para resolver un problema sólo para descubrir que **tienes que pagar para poder exportar la información**?<br><br>
+⁉️ ¿La tarea de mapear terrenos 🗺️ y llevar un registro de cientos de archivos generados está volviendo tu trabajo tedioso y engorroso mientras tu gato te mira demandando que le limpies su cagadero?
 
 ## 🚁gDroneMapper está aquí para salvar el día.
 Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría detallados para generar un mapa único y agrupado. Toda la información recopilada se visualiza bajo pines numerados, con una salida en un archivo HTML simple, altamente compatible y portable.
@@ -142,4 +142,4 @@ www.gershu.ar
 Los códigos fuente y ejecutables compilados de gDroneMapper para Windows se proporcionan "tal cual".<br>
 [^2]: ExifTool (https://exiftool.org) - Gracias Phil Harvey por esta increíble herramienta <3
 
-[[Subir / Up]](#up)
+⬆️ [[Subir / Up]](#up)
