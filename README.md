@@ -79,8 +79,8 @@ Includes ExifTool (https://exiftool.org) - Kudos to Phil Harvey for this awesome
 Versión actual: **1.0 Final**<br>
 Publicada: **19/OCT/2025**
 
--> ¿Alguna vez tomaste una foto con tu dron y luego te preguntaste, "¿Qué estaba viendo exactamente?"—sin saber la orientación precisa de la cámara y sin poder obtener una respuesta clara?<br>
--> ¿Estás cansado de trazar manualmente cientos de fotos y videos en un mapa para reconstruir un análisis forense 🔍 serio o para resolver un problema?<br>
+-> ¿Alguna vez tomaste una foto con tu dron y luego te preguntaste, "¿Qué estaba viendo exactamente?"—sin saber la orientación precisa de la cámara y sin poder obtener una respuesta clara?<br><br>
+-> ¿Estás cansado de trazar manualmente cientos de fotos y videos en un mapa para reconstruir un análisis forense 🔍 serio o para resolver un problema?<br><br>
 -> ¿La tarea de mapear terrenos 🗺️ y llevar un registro de cientos de archivos generados está volviendo tu trabajo tedioso y engorroso?
 
 ## 🚁gDroneMapper está aquí para salvar el día.
