@@ -1,0 +1,14 @@
+{
+  "inputDirectory": "./input",
+  "outputDirectory": "./output",
+  "log_output_folder": "./log",
+  "recurse": true,
+  "distance": 50,
+  "unit": "m",
+  "drawHeading": true,
+  "language": "es",
+  "scan_images": true,
+  "scan_videos": true,
+  "enable_logging": true,
+  "show_cones": true
+}

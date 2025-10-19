@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="{{.LanguageStrings.html_lang}}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{.Title}} | {{.GeneratedTime}}</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  <style>
+    html, body {height:100%;margin:0;padding:0;overflow:hidden;font-family:sans-serif;}
+    #container {display:flex;height:100vh;width:100vw;position:relative;}
+    #sidebar {width:320px;overflow-y:auto;box-sizing:border-box;background:#ecf0f1;display:flex;flex-direction:column;}
+    #sidebar-header {background:#2c3e50;color:white;padding:10px;font-weight:bold;font-size:14px;display:flex;justify-content:space-between;align-items:center;}
+    #sidebar-header .version {font-size:11px;font-weight:normal;opacity:0.8;margin-left:6px;}
+    #sidebar-content {padding:10px;flex:1;}
+    #map {flex:1;height:100%;min-height:300px;}
+    #controls {
+      position:absolute; top:10px; left:50%; transform:translateX(-50%);
+      z-index:1000; display:flex; gap:12px; align-items:center;
+    }
+    #controls button, #controls label {
+      background:#34495e; color:white; padding:4px 8px; border-radius:4px;
+      font-size:12px; cursor:pointer;
+    }
+    .collapsed #sidebar {display:none;}
+    .item {margin-bottom:8px;padding:8px;border-radius:4px;
+      box-shadow:0 1px 2px rgba(0,0,0,0.1);font-size:12px;color:#2c3e50;}
+    .item a {color:#2980b9;text-decoration:none;}
+    .item a:hover {text-decoration:underline;}
+    .index-link {cursor:pointer;color:#2980b9;text-decoration:underline;}
+    .photo-item { background: #eaf2fb; }
+    .video-item { background: #fff3e6; }
+    .marker-cluster-small { background-color: rgba(41,128,185,0.6) !important; color:white; }
+    .marker-cluster-medium { background-color: rgba(41,128,185,0.7) !important; color:white; }
+    .marker-cluster-large { background-color: rgba(41,128,185,0.8) !important; color:white; }
+    .marker-cluster div { background-color: rgba(41,128,185,0.9) !important; border:2px solid #2c3e50; }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="sidebar">
+      <div id="sidebar-header">
+        <a href="https://github.com/gershu-ar/gDroneMapper" target="_blank" style="color:white;text-decoration:none;">
+          {{.AppName}}
+        </a>
+        <span class="version">{{.AppVersion}}</span>
+      </div>
+      <div id="sidebar-content"></div>
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <div id="controls">
+    <button id="toggle-btn">{{index .LanguageStrings "html_hide"}}</button>
+    <button id="toggle-cones">{{index .LanguageStrings "html_toggle_cones_hide"}}</button>
+    <label><input type="checkbox" id="toggle-all-pins" checked> {{index .LanguageStrings "html_toggle_all_pins"}}</label>
+  </div>
+
+  <script>
+    window.onload = () => {
+      const flightData = {{.RawJSONData}};
+      const lang = {{.LanguageStrings}};
+
+      function safeFileURL(path){
+        return "file:///"+path.split(/[\\\\/]/).map(encodeURIComponent).join("/");
+      }
+
+      function colorFor(d) {
+        const name = d.FileName.toLowerCase();
+        if (name.endsWith(".mp4")) return "#e67e22";   // video
+        if (name.endsWith(".dng")) return "#27ae60";   // raw
+        if (/\.(jpg|jpeg|png)$/i.test(name)) return "#2980b9"; // photo
+        return "#7f8c8d";
+      }
+
+      const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"© OpenStreetMap"});
+      const dark = L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{attribution:"© OpenStreetMap, © Carto"});
+      const sat = L.tileLayer("https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",{subdomains:["mt0","mt1","mt2","mt3"],attribution:"© Google"});
+
+      const map = L.map("map",{center:[0,0],zoom:2,layers:[osm]});
+      L.control.layers({"OSM":osm,"Dark":dark,"Satellite":sat}).addTo(map);
+
+      const bounds = L.latLngBounds([]);
+      const sidebarContent = document.getElementById("sidebar-content");
+      const markerRefs=[], coneLayers=[], lineLayers=[];
+      const clusterGroup=L.markerClusterGroup();
+      map.addLayer(clusterGroup);
+
+      flightData.forEach((d,i) => {
+        const color = colorFor(d);
+        const icon = L.divIcon({
+          className: "custom-pin",
+          html: "<div style='width:20px;height:20px;border-radius:50%;background:"+color+";border:2px solid #222;display:flex;align-items:center;justify-content:center;color:white;font-size:11px;font-weight:bold;'>"+(i+1)+"</div>",
+          iconSize: [20,20],
+          iconAnchor: [10,10]
+        });
+
+        const hasCoords = typeof d.Lat === "number" && typeof d.Lon === "number" && !isNaN(d.Lat) && !isNaN(d.Lon);
+        const popup = d.HasTelemetry && hasCoords
+          ? "<b><a href='"+safeFileURL(d.AbsolutePath)+"' target='_blank'>"+d.FileName+"</a></b><br>"+lang["html_datetime"]+": "+d.Time+"<br>"+lang["html_altitude"]+": "+d.Altitude.toFixed(1)+" m<br>"+lang["html_latlon"]+": "+d.Lat.toFixed(6)+", "+d.Lon.toFixed(6)
+          : "<b><a href='"+safeFileURL(d.AbsolutePath)+"' target='_blank'>"+d.FileName+"</a></b><br><i>"+lang["html_no_telemetry"]+"</i>";
+
+        // Marker
+        let m = null;
+        if (hasCoords && !(d.Lat === 0 && d.Lon === 0)) {
+          m = L.marker([d.Lat, d.Lon], { icon }).bindPopup(popup);
+          markerRefs.push(m);
+          clusterGroup.addLayer(m);
+          bounds.extend([d.Lat, d.Lon]);
+        } else {
+          markerRefs.push(null);
+        }
+
+        // Cone wedge: only for photos/raw, if points provided
+        if (/\.(jpg|jpeg|png|dng)$/i.test(d.FileName) && Array.isArray(d.ConePoints) && d.ConePoints.length) {
+          const cone = L.polygon(d.ConePoints.map(p => [p[0], p[1]]), {
+            color, weight: 1, opacity: 0.6, fillOpacity: 0.2
+          }).addTo(map);
+          coneLayers.push(cone);
+        } else {
+          coneLayers.push(null);
+        }
+
+        // Heading line: only for photos/raw with telemetry
+        if (d.HasTelemetry && d.DestLat && d.DestLon && /\.(jpg|jpeg|png|dng)$/i.test(d.FileName)) {
+          const line = L.polyline([[d.Lat, d.Lon], [d.DestLat, d.DestLon]], {
+            color, weight: 1, opacity: 0.8
+          }).addTo(map);
+          lineLayers.push(line);
+        } else {
+          lineLayers.push(null);
+        }
+
+        // Sidebar info
+        let info = lang["html_datetime"]+": "+d.Time+"<br>";
+        if (d.HasTelemetry && hasCoords) {
+          if (/\.(jpg|jpeg|png|dng)$/i.test(d.FileName)) {
+            info += lang["html_heading"]+": "+d.FinalYaw.toFixed(1)+"° | ";
+          }
+          info += lang["html_altitude"]+": "+d.Altitude.toFixed(1)+" m<br>" +
+                  lang["html_latlon"]+": "+d.Lat.toFixed(6)+", "+d.Lon.toFixed(6);
+        } else {
+          info = "<i>"+lang["html_no_telemetry"]+"</i>";
+        }
+
+        const item = document.createElement("div");
+        item.className = "item";
+        item.classList.add(d.FileName.toLowerCase().endsWith(".mp4") ? "video-item" : "photo-item");
+        const iconEmoji = d.FileName.toLowerCase().endsWith(".mp4") ? lang["html_video_icon"] : lang["html_photo_icon"];
+        item.innerHTML =
+          "<label style='display:block;margin-bottom:4px;'>" +
+          "<input type='checkbox' class='pin-toggle' data-idx='"+i+"' checked> "+lang["html_pin_toggle_label"]+"</label>" +
+          "<span class='index-link' data-idx='"+i+"'>#"+(i+1)+"</span> — " +
+          iconEmoji + " <a href='"+safeFileURL(d.AbsolutePath)+"' target='_blank'>"+d.FileName+"</a><br>" +
+          info;
+        sidebarContent.appendChild(item);
+      });
+
+      if (bounds.isValid()) {
+        map.fitBounds(bounds);
+      }
+
+
+      // Individual pin toggle
+      document.querySelectorAll(".pin-toggle").forEach(cb => {
+        cb.addEventListener("change", () => {
+          const idx = parseInt(cb.dataset.idx);
+          const visible = cb.checked;
+          const m = markerRefs[idx];
+          if (m) {
+            if (visible) clusterGroup.addLayer(m);
+            else clusterGroup.removeLayer(m);
+          }
+          const cone = coneLayers[idx], line = lineLayers[idx];
+          if (cone) { if (visible && conesVisible) map.addLayer(cone); else map.removeLayer(cone); }
+          if (line) { if (visible) map.addLayer(line); else map.removeLayer(line); }
+          if (clusterGroup.refreshClusters) clusterGroup.refreshClusters();
+        });
+      });
+
+      // Global toggle all pins
+      document.getElementById("toggle-all-pins").addEventListener("click", e => {
+        const visible = e.target.checked;
+        document.querySelectorAll(".pin-toggle").forEach((cb, i) => {
+          cb.checked = visible;
+          const m = markerRefs[i];
+          if (m) {
+            if (visible) clusterGroup.addLayer(m);
+            else clusterGroup.removeLayer(m);
+          }
+          const cone = coneLayers[i], line = lineLayers[i];
+          if (cone) { if (visible && conesVisible) map.addLayer(cone); else map.removeLayer(cone); }
+          if (line) { if (visible) map.addLayer(line); else map.removeLayer(line); }
+        });
+        if (clusterGroup.refreshClusters) clusterGroup.refreshClusters();
+      });
+
+      // Toggle cones globally
+      let conesVisible = true;
+      document.getElementById("toggle-cones").onclick = () => {
+        conesVisible = !conesVisible;
+        coneLayers.forEach(layer => {
+          if (!layer) return;
+          if (conesVisible) map.addLayer(layer);
+          else map.removeLayer(layer);
+        });
+        document.getElementById("toggle-cones").textContent =
+          conesVisible ? lang["html_toggle_cones_hide"] : lang["html_toggle_cones_show"];
+      };
+
+      // Toggle sidebar
+      document.getElementById("toggle-btn").onclick = () => {
+        const container = document.getElementById("container");
+        container.classList.toggle("collapsed");
+        const btn = document.getElementById("toggle-btn");
+        btn.textContent = container.classList.contains("collapsed") ? lang["html_show"] : lang["html_hide"];
+      };
+
+      // Sidebar index click → zoom to marker
+      sidebarContent.addEventListener("click", e => {
+        const link = e.target.closest(".index-link");
+        if (!link) return;
+        const idx = parseInt(link.dataset.idx);
+        const m = markerRefs[idx];
+        if (m) {
+          map.setView(m.getLatLng(), map.getMaxZoom());
+          m.openPopup();
+        }
+      });
+
+      // Legend
+      const legend = L.control({ position: "bottomright" });
+      legend.onAdd = function () {
+        const div = L.DomUtil.create("div", "info legend");
+        div.style.background = "rgba(255,255,255,0.8)";
+        div.style.padding = "4px 8px";
+        div.style.borderRadius = "4px";
+        div.style.fontSize = "11px";
+        div.style.color = "#2c3e50";
+        div.innerHTML = "{{.AppName}} {{.AppVersion}} | Coded by Gershu";
+        return div;
+      };
+      legend.addTo(map);
+    }; // end window.onload
+  </script>
+</body>
+</html>
