@@ -1,3 +1,5 @@
+<center><img src="https://github.com/gershu-ar/gDroneMapper/blob/main/Screenshot_3.png?raw=true" width="500"></center>
+
 ****************
 INDEX / ÍNDICE<br>
 (1) 🇺🇸 English<br>
