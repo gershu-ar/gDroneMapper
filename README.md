@@ -64,8 +64,8 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
  
 > [!NOTE]
 > **KNOWN BUGS**<br>
-  None<br>
-  If you find a bug, want to give feedback or ask for a feature, feel free to contact me directly on [Instagram](https://www.instagram.com/gershu.ar) via a direct message.<br>I will be setting up better direct contact tools.
+>  - None<br><br>
+> If you find a bug, want to give feedback or ask for a feature, feel free to contact me directly on [Instagram](https://www.instagram.com/gershu.ar) via a direct message.<br>I will be setting up better direct contact tools.
 
 Coded with ❤️ in 🇦🇷 Argentina<br>
 www.gershu.ar
@@ -129,19 +129,14 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 > Si aparece Windows SmartScreen o cualquier aviso similar, simplemente ignóralo. Es una aplicación segura y no contiene virus.
 
 > [!TIP]
-> Si no estás segurx, puedes compilar el código tú mismo (la carpeta /SOURCE/ contiene el código fuente tanto para el back como para el frontend).
+> Si no estás segurx, puedes compilar el código tú mismx (la carpeta /SOURCE/ contiene el código fuente tanto para el back como para el frontend).
 
 > [!NOTE]
 > **ERRORES CONOCIDOS**<br>
-  Ninguno<br>
-  Si encontrás un bug, querés hacerme llegar comentarios o solicitar una función, sentite libre de contactarme en [Instagram](https://www.instagram.com/gershu.ar) a través de un mensaje directo.<br>Estaré implementando mejores herramientas de contacto directo en breve.
+> - Ninguno<br><br>
+> Si encontrás un bug, querés hacerme llegar comentarios o solicitar una función, sentite libre de contactarme en [Instagram](https://www.instagram.com/gershu.ar) a través de un mensaje directo.<br>Estaré implementando mejores herramientas de contacto directo en breve.
 
-> [!NOTE]
-> **KNOWN BUGS**<br>
-  None<br>
-  If you find a bug, want to give feedback or ask for a feature, feel free to contact me directly on [Instagram](https://www.instagram.com/gershu.ar) via a direct message.<br>I will be setting up better direct contact tools.
-
-Codificado con ❤️ en 🇦🇷 Argentina<br>
+Codedo con ❤️ en 🇦🇷 Argentina<br>
 www.gershu.ar
 
 Los códigos fuente y ejecutables compilados de gDroneMapper para Windows se proporcionan "tal cual".<br>
