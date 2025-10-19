@@ -60,9 +60,6 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 > If Windows's SmartScreen or any similar prompt appears, simply bypass it. This is a safe application and contains no viruses.<br>
 > If you are unsure, you can compile the code yourself (the /SOURCE/ folder contains both the backend and frontend code).
 
-> [!NOTE]
-> NERD CURIOSITY<br>**Why is the manual / portable version twice the size of the installer version?**<br>_Only God knows.  Installer version (.msi) has the same 3 files packed as in the manual / portable .zip.  Visual Studio made an **amazing job** by compressing the files way beyond the realm of the imagination._
-
 Coded with ❤️ in 🇦🇷 Argentina<br>
 www.gershu.ar
 
@@ -124,9 +121,6 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 > [!WARNING]
 > Si aparece Windows SmartScreen o cualquier aviso similar, simplemente ignóralo. Es una aplicación segura y no contiene virus.<br>
 > Si no estás seguro, puedes compilar el código tú mismo (la carpeta /SOURCE/ contiene el código tanto para el backend como para el frontend).
-
-> [!NOTE]
-> CURIOSIDADES DE NERD<br>**¿Por qué la versión manual / portable es el doble de grande que la versión de instalador?**<br>_Sólo Dios sabe.  La versión con instalador (.msi) tiene los 3 mismos archivos que la versión manual / portable.  Visual Studio hizo un trabajo *asombroso* al comprimir los archivos más allá de los límites de la imaginación._
 
 Codificado con ❤️ en 🇦🇷 Argentina<br>
 www.gershu.ar
