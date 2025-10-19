@@ -37,6 +37,9 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 
 - Easy Pin Identification: 🔵 JPG, 🟢 DNG & 🟠 MP4
 
+> [!IMPORTANT]
+> Due to a lack of information in the files (technical limitation), **panoramic shot files store no telemetry to create a proper cone of vision**.  Apart from that, they are indexed and processed properly.  
+
 - Map Styles: Three different map style layers are available.
 
 - Data Export: A log file is generated in "copy and paste" CSV format, ready to be imported into Excel or a database.
@@ -98,6 +101,9 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 - Control de Visibilidad: Es posible activar o desactivar la visibilidad de los conos de visión y/o los pines de forma individual o global, así como ocultar la tabla de información completa.
 
 - Identificación Sencilla de Pines: 🔵 JPG, 🟢 DNG & 🟠 MP4
+
+> [!IMPORTANT]
+> Debido a una falta de información propia de los archivos (limitación técnica), **las fotografías panorámicas no guardan información de telemetría adecuada para generar el cono de visión correspondiente**.  Fuera de eso, los archivos son indexados y procesados con normalidad.
 
 - Estilos de Mapa: Tres capas diferentes de estilo de mapa disponibles.
 
