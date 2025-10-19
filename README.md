@@ -34,8 +34,7 @@ Key Features:
 - Technology Stack: The backend (processor) is coded in Golang, and the frontend (GUI) is coded in C# (all .NET runtimes are embedded in the executable file).
 
 ### How to get started:
-- Easier: Download "gDroneMapper_10Final_x64_installer.exe" and run the installer.
-- Manual/Portable: Download "gDroneMapper_10Final_x64.zip", extract the files to a folder of your choice, and run gDroneMapper.exe. It is a portable app and can run directly from removable media.
+- Windows 10/11: Download "gDroneMapper_10Final_x64.zip", extract the files to a folder of your choice, and run gDroneMapper.exe. It is a portable app and can run directly from removable media.
 
 > If Windows's SmartScreen or any similar prompt appears, simply bypass it. This is a safe application and contains no viruses.<br>
 > If you are unsure, you can compile the code yourself (the /SOURCE/ folder contains both the backend and frontend code).
@@ -80,8 +79,7 @@ Características Clave: 📍
 - Tecnología: El backend (procesador) está codificado en Golang, y el frontend (GUI) está codificado en C# (todos los tiempos de ejecución de .NET están incrustados en el archivo ejecutable).
 
 ### Cómo empezar:
-- Más Fácil: Descarga "gDroneMapper_10Final_x64_installer.exe" y ejecuta el instalador.
-- Manual/Portable: Descarga "gDroneMapper_10Final_x64.zip", extrae los archivos a una carpeta de tu elección y ejecuta gDroneMapper.exe. Es una aplicación portable y puede ejecutarse directamente desde medios extraíbles.
+- Windows 10/11: Descarga "gDroneMapper_10Final_x64.zip", extrae los archivos a una carpeta de tu elección y ejecuta gDroneMapper.exe. Es una aplicación portable y puede ejecutarse directamente desde medios extraíbles.
 
 > Si aparece Windows SmartScreen o cualquier aviso similar, simplemente ignóralo. Es una aplicación segura y no contiene virus.<br>
 > Si no estás seguro, puedes compilar el código tú mismo (la carpeta /SOURCE/ contiene el código tanto para el backend como para el frontend).
