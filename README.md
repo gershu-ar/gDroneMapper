@@ -11,15 +11,18 @@
 <a name="english"></a>
 ## (1) 🇺🇸 ENGLISH
 
-... Have you ever taken a drone picture and later asked yourself, "What exactly was I looking at?"—unsure of the camera's precise orientation and never really getting a clear answer?<br><br>
-... Are you tired of manually plotting hundreds of pictures and videos onto a map to reconstruct a serious forensic analysis or to solve a problem?<br><br>
-... Is the task of mapping terrain and keeping track of hundreds of generated files making your work tedious and cumbersome?
+Current version: **1.0 Final**<br>
+Published: **19/OCT/2025**
+
+-> Have you ever taken a drone picture and later asked yourself, "What exactly was I looking at?"—unsure of the camera's precise orientation and never really getting a clear answer?<br><br>
+-> Are you tired of manually plotting hundreds of pictures and videos onto a map to reconstruct a serious forensic analysis or to solve a problem?<br><br>
+-> Is the task of mapping terrain and keeping track of hundreds of generated files making your work tedious and cumbersome?
 
 ### 🚁 gDroneMapper is here to save the day.
 It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.
 
 > [!TIP]
-> Map live preview: https://gershu.ar/playground/gDroneMapper_20251019_091450.html
+> Check out a sample map: https://gershu.ar/playground/gDroneMapper_20251019_091450.html
 
 > [!NOTE] 
 > Tested with files produced by a DJI Air 3S.  gDroneMapper should be compatible with all DJI generated pictures and videos.  Other brands too if standarized EXIF/XMP information is present.
@@ -42,15 +45,18 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 
 - Technology Stack / Architecture: The backend (processor) is coded and compiled in Golang (compressed with UPX).  The frontend (GUI) is coded in C# + .NET 9.0 + WinForms (all required runtimes are self contained in the executable file, thus making a larger file).
 
-### How to get started:
-- Windows 10/11: Download [gDroneMapper_10Final_x64.zip](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64.zip), extract the files to a folder of your choice, and run gDroneMapper.exe. It is a portable app and can run directly from removable media.
+### Let's get started! (Windows 10/11 x64)
+- **INSTALLER VERSION** (recommended)<br>
+  Download [gDroneMapper_10Final_x64_Installer.msi](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64_Installer.msi) and run to install on your computer.<br>This will generate a desktop shortcut for easy app access.<br>
+- **MANUAL / PORTABLE VERSION**<br>
+  Download [gDroneMapper_10Final_x64.zip](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64.zip), extract the files to a folder of your choice, and run "gDroneMapper.exe" to use.<br>You can also run "forrest.exe" by itself (it's the backend), it will read the configuration from "config.json" and process it accordingly.
 
 > [!WARNING]
 > If Windows's SmartScreen or any similar prompt appears, simply bypass it. This is a safe application and contains no viruses.<br>
 > If you are unsure, you can compile the code yourself (the /SOURCE/ folder contains both the backend and frontend code).
 
-Current version: **1.0 Final**<br>
-Published: **19/OCT/2025**
+> [!NOTE]
+> NERD CURIOSITY<br>**Why is the manual / portable version twice the size of the installer version?**<br>_Only God knows.  Installer version (.msi) has the same 3 files packed as in the manual / portable .zip.  Visual Studio made an **amazing job** by compressing the files way beyond the realm of the imagination.  As a side note, gDroneMapper.exe (frontend) is uncompressed and forrest.exe (backend) is compressed with UPX.  gDroneMapper.exe is a "fat boy" (around 110 MBs) because it includes all the needed .NET 9.0 runtimes in order not to depend on external / extra files.  Both front and backend are 100% self contained._
 
 Coded with ❤️ in 🇦🇷 Argentina<br>
 www.gershu.ar
@@ -65,9 +71,12 @@ Includes ExifTool (https://exiftool.org) - Kudos to Phil Harvey for this awesome
 <a name="espanol"></a>
 ## (2) 🇦🇷 ESPAÑOL
 
-... ¿Alguna vez tomaste una foto con tu dron y luego te preguntaste, "¿Qué estaba viendo exactamente?"—sin saber la orientación precisa de la cámara y sin poder obtener una respuesta clara?<br>
-... ¿Estás cansado de trazar manualmente cientos de fotos y videos en un mapa para reconstruir un análisis forense 🔍 serio o para resolver un problema?<br>
-... ¿La tarea de mapear terrenos 🗺️ y llevar un registro de cientos de archivos generados está volviendo tu trabajo tedioso y engorroso?
+Versión actual: **1.0 Final**<br>
+Publicada: **19/OCT/2025**
+
+-> ¿Alguna vez tomaste una foto con tu dron y luego te preguntaste, "¿Qué estaba viendo exactamente?"—sin saber la orientación precisa de la cámara y sin poder obtener una respuesta clara?<br>
+-> ¿Estás cansado de trazar manualmente cientos de fotos y videos en un mapa para reconstruir un análisis forense 🔍 serio o para resolver un problema?<br>
+-> ¿La tarea de mapear terrenos 🗺️ y llevar un registro de cientos de archivos generados está volviendo tu trabajo tedioso y engorroso?
 
 ### 🚁gDroneMapper está aquí para ayudarte. 
 Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría detallados para generar un mapa único y agrupado. Toda la información recopilada se visualiza bajo pines numerados, con una salida en un archivo HTML simple, altamente compatible y portable.
@@ -96,15 +105,18 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 
 - Tecnología / Arquitectura: El backend (procesador) está codificado y compilado en Golang (comprimid con UPX).  El frontend (GUI) en C# + .NET 9.0 + WinForms (todos los archivos .NET necesarios están embebidos en el ejecutable, por ello el archivo tan extenso).
 
-### Cómo empezar:
-- Windows 10/11: [gDroneMapper_10Final_x64.zip](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64.zip), extrae los archivos a una carpeta de tu elección y ejecuta gDroneMapper.exe. Es una aplicación portable y puede ejecutarse directamente desde medios extraíbles.
+### ¡Empecemos! (Windows 10/11 x64)
+- **VERSÓN CON INSTALADOR** (recomendada)<br>
+  Descarga [gDroneMapper_10Final_x64_Installer.msi](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64_Installer.msi) y ejecutalo para instalar en tu computadora.<br>Esto generará un accceso directo en tu escritorio para rápido acceso.<br>
+- **VERSIÓN MANUAL / PORTABLE**<br>
+  Descarga [gDroneMapper_10Final_x64.zip](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64.zip), extra los archivos a la carpeta de tu elección, y ejecuta "gDroneMapper.exe" para utilizar<br>También podés ejecutar "forrest.exe" por su cuenta (es el backend): leerá la configuración en config.json y ejecutará acorde.
 
 > [!WARNING]
 > Si aparece Windows SmartScreen o cualquier aviso similar, simplemente ignóralo. Es una aplicación segura y no contiene virus.<br>
 > Si no estás seguro, puedes compilar el código tú mismo (la carpeta /SOURCE/ contiene el código tanto para el backend como para el frontend).
 
-Versión actual: **1.0 Final**<br>
-Publicada: **19/OCT/2025**
+> [!NOTE]
+> CURIOSIDADES DE NERD<br>**¿Por qué la versión manual / portable es el doble de grande que la versión de instalador?**<br>_Sólo Dios sabe.  La versión con instalador (.msi) tiene los 3 mismos archivos que la versión manual / portable.  Visual Studio hizo un trabajo *asombroso* al comprimir los archivos más allá de los límites de la imaginación.  Como nota aparte, gDroneMapper.exe (frontend) está sin comprimir mientras que forrest.exe (backend) está comprimido con UPX.  gDroneMapper.exe es un "niño gordo" (algo de 110 MBs) porque incluye todos los archivos necesarios para ejecutar la interfaz en .NET 9.0 sin necesidad de galerías o archivos externos.  Front y backends 100% contenidos en sí mismos._
 
 Codificado con ❤️ en 🇦🇷 Argentina<br>
 www.gershu.ar
