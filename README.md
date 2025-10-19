@@ -19,7 +19,7 @@ Published: **19/OCT/2025**
 ⁉️ Is the task of mapping terrain and keeping track of hundreds of generated files making your work tedious and cumbersome while your cat demands his litter to be cleaned **[right meow](https://www.youtube.com/watch?v=5EkwBEL4MZw)**?
 
 ## 🚁 gDroneMapper is here to save the day.
-It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.
+It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.  It also generates in-map direct links to the absolute paths where the original files are located.
 
 > [!TIP]
 > Click here for a live example of a generated map: [DEMO](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)<br>
@@ -89,7 +89,7 @@ Publicada: **19/OCT/2025**
 ⁉️ ¿La tarea de mapear terrenos 🗺️ y llevar un registro de cientos de archivos generados está volviendo tu trabajo tedioso y engorroso mientras tu gato te mira demandando que le limpies su cagadero?
 
 ## 🚁gDroneMapper está aquí para salvar el día.
-Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría detallados para generar un mapa único y agrupado. Toda la información recopilada se visualiza bajo pines numerados, con una salida en un archivo HTML simple, altamente compatible y portable.
+Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría detallados para generar un mapa único y agrupado. Toda la información recopilada se visualiza bajo pines numerados, con una salida en un archivo HTML simple, altamente compatible y portable.  También genera dentro del mapa vínculos directos a los archivos de acuerdo a la ruta absoluta.
 
 > [!TIP]
 > Click aquí para acceder un ejemplo real de un mapa generado: [DEMO](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)<br>
