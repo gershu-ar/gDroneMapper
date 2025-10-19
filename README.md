@@ -3,9 +3,8 @@
 <a name="up"></a>
 
 ****************
-## INDEX / ÍNDICE<br>
+## INDEX / ÍNDICE
 ### (1) [🇺🇸 English](#english)<br>
-****************
 ### (2) [🇦🇷 Español](#espanol)
 ****************
 
