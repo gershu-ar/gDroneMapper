@@ -52,9 +52,9 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 
 ### Let's get started! (Windows 10/11 x64)
 - **INSTALLER VERSION** (recommended)<br>
-  Download [gDroneMapper_10Final_x64_Installer.msi](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64_Installer.msi) and run to install on your computer.<br>This will generate a desktop shortcut for easy app access.<br>
+  Download [gDroneMapper_10Final_x64_Installer.msi](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64_Installer.msi) (right click, "Save as...") and run to install on your computer.<br>This will generate a desktop shortcut for easy app access.<br>
 - **MANUAL / PORTABLE VERSION**<br>
-  Download [gDroneMapper_10Final_x64.zip](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64.zip), extract the files to a folder of your choice, and run "gDroneMapper.exe" to use.<br>You can also run "forrest.exe" by itself (it's the backend), it will read the configuration from "config.json" and process it accordingly.
+  Download [gDroneMapper_10Final_x64.zip](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64.zip) (right click, "Save as..."), extract the files to a folder of your choice, and run "gDroneMapper.exe" to use.<br>You can also run "forrest.exe" by itself (it's the backend), it will read the configuration from "config.json" and process it accordingly.
 
 > [!WARNING]
 > If Windows's SmartScreen or any similar prompt appears, simply bypass it. This is a safe application and contains no viruses.<br>
@@ -117,9 +117,9 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 
 ### ¡Empecemos! (Windows 10/11 x64)
 - **VERSIÓN CON INSTALADOR** (recomendada)<br>
-  Descarga [gDroneMapper_10Final_x64_Installer.msi](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64_Installer.msi) y ejecutalo para instalar en tu computadora.<br>Esto generará un accceso directo en tu escritorio para rápido acceso.<br>
+  Descarga [gDroneMapper_10Final_x64_Installer.msi](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64_Installer.msi) (click derecho, "Guardar como...") y ejecutalo para instalar en tu computadora.<br>Esto generará un accceso directo en tu escritorio para rápido acceso.<br>
 - **VERSIÓN MANUAL / PORTABLE**<br>
-  Descarga [gDroneMapper_10Final_x64.zip](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64.zip), extrae los archivos en la carpeta de tu elección, y ejecuta "gDroneMapper.exe" para utilizar<br>También podés ejecutar "forrest.exe" por su cuenta (es el backend): leerá la configuración en config.json y ejecutará acorde.
+  Descarga [gDroneMapper_10Final_x64.zip](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64.zip) click derecho, "Guardar como..."), extrae los archivos en la carpeta de tu elección, y ejecuta "gDroneMapper.exe" para utilizar<br>También podés ejecutar "forrest.exe" por su cuenta (es el backend): leerá la configuración en config.json y ejecutará acorde.
 
 > [!WARNING]
 > Si aparece Windows SmartScreen o cualquier aviso similar, simplemente ignóralo. Es una aplicación segura y no contiene virus.<br>
