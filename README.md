@@ -132,6 +132,6 @@ Codificado con ❤️ en 🇦🇷 Argentina<br>
 www.gershu.ar
 
 Los códigos fuente y ejecutables compilados de gDroneMapper para Windows se proporcionan "tal cual".<br>
-[^2]: Incluye ExifTool (https://exiftool.org) - Felicitaciones a Phil Harvey por esta increíble herramienta <3
+[^2]: ExifTool (https://exiftool.org) - Gracias Phil Harvey por esta increíble herramienta <3
 
 [[Subir / Up]](#up)
