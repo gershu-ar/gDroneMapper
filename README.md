@@ -13,6 +13,8 @@ INDEX / ÍNDICE<br>
 ### 🚁 gDroneMapper is here to save the day.
 It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.
 
+> Map live preview: https://gershu.ar/playground/gDroneMapper_20251019_091450.html 
+
 Key Features:
 
 - Visual Coverage: For each image file, heading lines and cones of view (POVs) are created and graphically represented. This is based on mathematical calculations of the extracted data, providing a sense of visual coverage and the precise center of the image for reference. (This feature is available only for pictures, not videos, due to limitations in DJI's proprietary format. However, video pins and core telemetry are still presented.)
@@ -57,6 +59,8 @@ Includes ExifTool (https://exiftool.org) - Kudos to Phil Harvey for this awesome
 
 ### 🚁gDroneMapper está aquí para ayudarte. 
 Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría detallados para generar un mapa único y agrupado. Toda la información recopilada se visualiza bajo pines numerados, con una salida en un archivo HTML simple, altamente compatible y portable.
+
+> Preview del mapa: https://gershu.ar/playground/gDroneMapper_20251019_091450.html 
 
 Características Clave: 📍
 
