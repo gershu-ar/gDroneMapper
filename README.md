@@ -31,7 +31,7 @@ Key Features:
 
 - Simple Distribution: The application consists of just three files: the backend, the frontend, and the configuration file.
 
-- Technology Stack: The backend (processor) is coded in Golang, and the frontend (GUI) is coded in C# (all .NET runtimes are embedded in the executable file).
+- Technology Stack: The backend (processor) is coded in Golang, and the frontend (GUI) is coded in C# + .NET (all runtimes are self contained in the executable file).
 
 ### How to get started:
 - Windows 10/11: Download "gDroneMapper_10Final_x64.zip", extract the files to a folder of your choice, and run gDroneMapper.exe. It is a portable app and can run directly from removable media.
@@ -76,7 +76,7 @@ Características Clave: 📍
 
 - Distribución Simple: La aplicación consta de solo tres archivos: el backend, el frontend y el archivo de configuración.
 
-- Tecnología: El backend (procesador) está codificado en Golang, y el frontend (GUI) está codificado en C# (todos los tiempos de ejecución de .NET están incrustados en el archivo ejecutable).
+- Tecnología: El backend (procesador) está codificado en Golang, y el frontend (GUI) está codificado en C# + .NET (todos los runtimes de ejecución de .NET están embebidos en el ejecutable).
 
 ### Cómo empezar:
 - Windows 10/11: Descarga "gDroneMapper_10Final_x64.zip", extrae los archivos a una carpeta de tu elección y ejecuta gDroneMapper.exe. Es una aplicación portable y puede ejecutarse directamente desde medios extraíbles.
