@@ -35,6 +35,8 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 
 - Visibility Control: You can individually or globally toggle the visibility of cones of view and/or pins, as well as hide the entire information table.
 
+- Easy Pin Identification: 🔵 JPG, 🟢 DNG & 🟠 MP4
+
 - Map Styles: Three different map style layers are available.
 
 - Data Export: A log file is generated in "copy and paste" CSV format, ready to be imported into Excel or a database.
@@ -94,6 +96,8 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 - Índice de Información: Se genera una tabla de información 📊 que indexa todos los archivos procesados con datos de telemetría útiles para una referencia y navegación rápidas.
 
 - Control de Visibilidad: Es posible activar o desactivar la visibilidad de los conos de visión y/o los pines de forma individual o global, así como ocultar la tabla de información completa.
+
+- Identificación Sencilla de Pines: 🔵 JPG, 🟢 DNG & 🟠 MP4
 
 - Estilos de Mapa: Tres capas diferentes de estilo de mapa disponibles.
 
