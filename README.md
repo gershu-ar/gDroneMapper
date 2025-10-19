@@ -106,7 +106,7 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 - Tecnología / Arquitectura: El backend (procesador) está codificado y compilado en Golang (comprimid con UPX).  El frontend (GUI) en C# + .NET 9.0 + WinForms (sin comprimir, todos los archivos .NET necesarios están embebidos en el ejecutable, por ello el archivo tan extenso).
 
 ### ¡Empecemos! (Windows 10/11 x64)
-- **VERSÓN CON INSTALADOR** (recomendada)<br>
+- **VERSIÓN CON INSTALADOR** (recomendada)<br>
   Descarga [gDroneMapper_10Final_x64_Installer.msi](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64_Installer.msi) y ejecutalo para instalar en tu computadora.<br>Esto generará un accceso directo en tu escritorio para rápido acceso.<br>
 - **VERSIÓN MANUAL / PORTABLE**<br>
   Descarga [gDroneMapper_10Final_x64.zip](https://github.com/gershu-ar/gDroneMapper/blob/main/gDroneMapper_10Final_x64.zip), extra los archivos a la carpeta de tu elección, y ejecuta "gDroneMapper.exe" para utilizar<br>También podés ejecutar "forrest.exe" por su cuenta (es el backend): leerá la configuración en config.json y ejecutará acorde.
