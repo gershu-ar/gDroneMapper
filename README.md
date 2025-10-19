@@ -48,7 +48,7 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 
 - Simple Distribution: The application consists of just three files: the backend, the frontend, and the configuration file.
 
-- Technology Stack / Architecture: The backend (processor) is coded and compiled in Golang (compressed with UPX).  The frontend (GUI) is coded in C# + .NET 9.0 + WinForms (uncompressed, all required runtimes are self contained in the executable file, thus making a larger file).
+- Technology Stack / Architecture: The backend (processor) is coded and compiled in Golang (EXE compressed with UPX); ExifTool[^1] runtimes are embeded and deployed on first run.  The frontend (GUI) is coded in C# + .NET 9.0 + WinForms (uncompressed EXE, all required .NET 9.0 runtimes are self contained in the executable file, thus making a larger file).
 
 ## Let's get started! (Windows 10/11 x64)
 - **INSTALLER VERSION** (recommended)<br>
@@ -67,7 +67,7 @@ Coded with ❤️ in 🇦🇷 Argentina<br>
 www.gershu.ar
 
 gDroneMapper's source codes and compiled Windows executables are provided "as is".<br>
-Includes ExifTool (https://exiftool.org) - Kudos to Phil Harvey for this awesome tool <3
+[^1]: ExifTool (https://exiftool.org) - Kudos to Phil Harvey for this awesome tool <3
 
 [[Subir / Up]](#up)
 
@@ -113,7 +113,7 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 
 - Distribución Simple: La aplicación consta de solo tres archivos: el backend, el frontend y el archivo de configuración.
 
-- Tecnología / Arquitectura: El backend (procesador) está codificado y compilado en Golang (comprimid con UPX).  El frontend (GUI) en C# + .NET 9.0 + WinForms (sin comprimir, todos los archivos .NET necesarios están embebidos en el ejecutable, por ello el archivo tan extenso).
+- Tecnología / Arquitectura: El backend (forrest.exe, procesador) fue codeado y compilado en Golang (EXE comprimido con UPX); ExifTool[^2] está embebido y se despliega en la primera ejecución.  El frontend (gDroneMapper.exe, GUI) fue codeado en C# + .NET 9.0 + WinForms (EXE sin comprimir, todos los runtimes de .NET 9.0 necesarios están embebidos en el ejecutable, por ello el archivo tan extenso).
 
 ## ¡Empecemos! (Windows 10/11 x64)
 - **VERSIÓN CON INSTALADOR** (recomendada)<br>
@@ -132,6 +132,6 @@ Codificado con ❤️ en 🇦🇷 Argentina<br>
 www.gershu.ar
 
 Los códigos fuente y ejecutables compilados de gDroneMapper para Windows se proporcionan "tal cual".<br>
-Incluye ExifTool (https://exiftool.org) - Felicitaciones a Phil Harvey por esta increíble herramienta <3
+[^2]: Incluye ExifTool (https://exiftool.org) - Felicitaciones a Phil Harvey por esta increíble herramienta <3
 
 [[Subir / Up]](#up)
