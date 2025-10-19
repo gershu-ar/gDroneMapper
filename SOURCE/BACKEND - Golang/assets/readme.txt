@@ -1,0 +1,1 @@
+Unzip exiftool.zip in this directory before running / compiling gDroneMapper code.
