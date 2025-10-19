@@ -22,7 +22,7 @@ Published: **19/OCT/2025**
 It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.
 
 > [!TIP]
-> Click here for a live example of a generated map: [DEMO](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)
+> Click here for a live example of a generated map: [DEMO](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)<br>
 > Note: There were no JPGs scanned, only DNG and MP4 present in that batch.
 
 > [!NOTE] 
@@ -92,7 +92,7 @@ Publicada: **19/OCT/2025**
 Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría detallados para generar un mapa único y agrupado. Toda la información recopilada se visualiza bajo pines numerados, con una salida en un archivo HTML simple, altamente compatible y portable.
 
 > [!TIP]
-> Click aquí para acceder un ejemplo real de un mapa generado: [DEMO](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)
+> Click aquí para acceder un ejemplo real de un mapa generado: [DEMO](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)<br>
 > Nota: en ese escaneo no hubo archivos JPG presentes, sólo DNG y MP4.
 
 > [!NOTE]
