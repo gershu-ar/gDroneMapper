@@ -1,12 +1,15 @@
 <img src="https://github.com/gershu-ar/gDroneMapper/blob/main/Screenshot_1.png?raw=true" height="300"> <img src="https://github.com/gershu-ar/gDroneMapper/blob/main/Screenshot_3.png?raw=true" width="500">
 
+<a name="up">/<a>
+
 ****************
-INDEX / ÍNDICE<br>
-(1) 🇺🇸 English<br>
-(2) 🇦🇷 Español
+## INDEX / ÍNDICE<br>
+### (1) [🇺🇸 English](#english)<br>
+### (2) [🇦🇷 Español](#espanol)
 ****************
 
-## (1) ENGLISH
+<a name="english"></a>
+## (1) 🇺🇸 ENGLISH
 
 ... Have you ever taken a drone picture and later asked yourself, "What exactly was I looking at?"—unsure of the camera's precise orientation and never really getting a clear answer?<br>
 ... Are you tired of manually plotting hundreds of pictures and videos onto a map to reconstruct a serious forensic analysis or to solve a problem?<br>
@@ -15,6 +18,7 @@ INDEX / ÍNDICE<br>
 ### 🚁 gDroneMapper is here to save the day.
 It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.
 
+> [!TIP]
 > Map live preview: https://gershu.ar/playground/gDroneMapper_20251019_091450.html<br><br>
 > Tested with files produced by a DJI Air 3S.  gDroneMapper should be compatible with all DJI generated pictures and videos.  Other brands too if standarized EXIF/XMP information is present.
 
@@ -30,13 +34,11 @@ Key Features:
 
 - Data Export: A log file is generated in "copy and paste" CSV format, ready to be imported into Excel or a database.
 
-- Architecture: Features a robust backend and a simple, intuitive visual interface (frontend) for easy management.
-
 - Open and Free: It is open source, modern, portable, fast, and completely free.
 
 - Simple Distribution: The application consists of just three files: the backend, the frontend, and the configuration file.
 
-- Technology Stack: The backend (processor) is coded in Golang, and the frontend (GUI) is coded in C# + .NET (all runtimes are self contained in the executable file).
+- Technology Stack / Architecture: The backend (processor) is coded and compiled in Golang (compressed with UPX).  The frontend (GUI) is coded in C# + .NET 9.0 + WinForms (all required runtimes are self contained in the executable file, thus making a larger file).
 
 ### How to get started:
 - Windows 10/11: Download "gDroneMapper_10Final_x64.zip", extract the files to a folder of your choice, and run gDroneMapper.exe. It is a portable app and can run directly from removable media.
@@ -51,10 +53,12 @@ www.gershu.ar
 gDroneMapper's source codes and compiled Windows executables are provided "as is".<br>
 Includes ExifTool (https://exiftool.org) - Kudos to Phil Harvey for this awesome tool <3
 
+[[Subir / Up]](#up)
+
 
 *********
-
-## (2) ESPAÑOL
+<a name="espanol"></a>
+## (2) 🇦🇷 ESPAÑOL
 
 ... ¿Alguna vez tomaste una foto con tu dron y luego te preguntaste, "¿Qué estaba viendo exactamente?"—sin saber la orientación precisa de la cámara y sin poder obtener una respuesta clara?<br>
 ... ¿Estás cansado de trazar manualmente cientos de fotos y videos en un mapa para reconstruir un análisis forense 🔍 serio o para resolver un problema?<br>
@@ -63,6 +67,7 @@ Includes ExifTool (https://exiftool.org) - Kudos to Phil Harvey for this awesome
 ### 🚁gDroneMapper está aquí para ayudarte. 
 Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría detallados para generar un mapa único y agrupado. Toda la información recopilada se visualiza bajo pines numerados, con una salida en un archivo HTML simple, altamente compatible y portable.
 
+> [!TIP]
 > Preview del mapa: https://gershu.ar/playground/gDroneMapper_20251019_091450.html<br><br>
 > Teasteado con archivos generados por un DJI Air 3S.  gDroneMapper debería ser compatible con todos los modelos de DJI.  Otras marcas también en tanto y en cuanto respeten la nomenclatura en el perfil EXIF/XMP de los archivos.
 
@@ -78,13 +83,11 @@ Características Clave: 📍
 
 - Exportación de Datos: Se genera un archivo de registro en formato CSV de "copiar y pegar", listo para ser importado en Excel o una base de datos. 💾
 
-- Arquitectura: Cuenta con un backend robusto y una interfaz visual (frontend) simple e intuitiva para una gestión sencilla.
-
 - Abierto y Gratuito: Es de código abierto, moderno, portable, rápido y completamente gratuito. 🆓
 
 - Distribución Simple: La aplicación consta de solo tres archivos: el backend, el frontend y el archivo de configuración.
 
-- Tecnología: El backend (procesador) está codificado en Golang, y el frontend (GUI) está codificado en C# + .NET (todos los runtimes de ejecución de .NET están embebidos en el ejecutable).
+- Tecnología / Arquitectura: El backend (procesador) está codificado y compilado en Golang (comprimid con UPX).  El frontend (GUI) en C# + .NET 9.0 + WinForms (todos los archivos .NET necesarios están embebidos en el ejecutable, por ello el archivo tan extenso).
 
 ### Cómo empezar:
 - Windows 10/11: Descarga "gDroneMapper_10Final_x64.zip", extrae los archivos a una carpeta de tu elección y ejecuta gDroneMapper.exe. Es una aplicación portable y puede ejecutarse directamente desde medios extraíbles.
@@ -98,3 +101,5 @@ www.gershu.ar
 
 Los códigos fuente y ejecutables compilados de gDroneMapper para Windows se proporcionan "tal cual".<br>
 Incluye ExifTool (https://exiftool.org) - Felicitaciones a Phil Harvey por esta increíble herramienta <3
+
+[[Subir / Up]](#up)
