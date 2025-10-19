@@ -83,7 +83,7 @@ gDroneMapper's source codes and compiled Windows executables are provided "as is
 Versión actual: **1.0 Final**<br>
 Publicada: **19/OCT/2025**
 
-❔ ¿Alguna vez tomaste una foto con tu dron y luego te preguntaste, "**_¿¿Pero a qué m______ estaba apuntando en ese momento??_**" — sin saber la orientación precisa de la cámara y sin poder obtener una respuesta clara?<br><br>
+❔ ¿Alguna vez tomaste una foto con tu dron y luego te preguntaste, "**_¿¿Pero a qué mxxxda estaba apuntando en ese momento??_**" — sin saber la orientación precisa de la cámara y sin poder obtener una respuesta clara?<br><br>
 ❓ ¿Estás cansado de trazar manualmente cientos de fotos y videos en un mapa para reconstruir un análisis forense 🔍 serio o para resolver un problema sólo para descubrir que **tienes que pagar para poder exportar la información**?<br><br>
 ⁉️ ¿La tarea de mapear terrenos 🗺️ y llevar un registro de cientos de archivos generados está volviendo tu trabajo tedioso y engorroso mientras tu gato te mira demandando que le limpies su cagadero?
 
