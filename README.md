@@ -1,4 +1,4 @@
-<center><img src="https://github.com/gershu-ar/gDroneMapper/blob/main/Screenshot_3.png?raw=true" width="500"></center>
+<img src="https://github.com/gershu-ar/gDroneMapper/blob/main/Screenshot_1.png?raw=true" height="300"> <img src="https://github.com/gershu-ar/gDroneMapper/blob/main/Screenshot_3.png?raw=true" width="500">
 
 ****************
 INDEX / ÍNDICE<br>
