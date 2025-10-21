@@ -19,10 +19,10 @@ Published: **19/OCT/2025**
 ⁉️ Is the task of mapping terrain and keeping track of hundreds of generated files making your work tedious and cumbersome while your cat demands his litter to be cleaned **[right meow](https://www.youtube.com/watch?v=5EkwBEL4MZw)**?
 
 ## 🚁 gDroneMapper is here to save the day.
-It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.
+It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.  It also generates in-map direct links to the absolute paths where the original files are located.
 
 > [!TIP]
-> Check out a sample map: https://gershu.ar/playground/gDroneMapper_20251019_091450.html
+> Click here for a live example of a generated map: [DEMO](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)<br>
 
 > [!NOTE] 
 > Tested with files produced by a DJI Air 3S.  gDroneMapper should be compatible with all DJI generated pictures and videos.  Other brands too if standarized EXIF/XMP information is present.
@@ -48,7 +48,7 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 
 - Simple Distribution: The application consists of just three files: the backend, the frontend, and the configuration file.
 
-- Technology Stack / Architecture: The backend (processor) is coded and compiled in Golang (EXE compressed with UPX); ExifTool[^1] runtimes are embeded and deployed on first run.  The frontend (GUI) is coded in C# + .NET 9.0 + WinForms (uncompressed EXE, all required .NET 9.0 runtimes are self contained in the executable file, thus making a larger file).
+- Technology Stack / Architecture: The backend (processor) is coded and compiled in Go (EXE compressed with UPX); ExifTool[^1] runtimes are embeded and deployed on first run.  The frontend (GUI) is coded in C# + .NET 9.0 + WinForms (uncompressed EXE, all required .NET 9.0 runtimes are self contained in the executable file, thus making a larger file).
 
 ## Let's get started! (Windows 10/11 x64)
 - **INSTALLER VERSION** (recommended)<br>
@@ -88,10 +88,10 @@ Publicada: **19/OCT/2025**
 ⁉️ ¿La tarea de mapear terrenos 🗺️ y llevar un registro de cientos de archivos generados está volviendo tu trabajo tedioso y engorroso mientras tu gato te mira demandando que le limpies su cagadero?
 
 ## 🚁gDroneMapper está aquí para salvar el día.
-Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría detallados para generar un mapa único y agrupado. Toda la información recopilada se visualiza bajo pines numerados, con una salida en un archivo HTML simple, altamente compatible y portable.
+Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría detallados para generar un mapa único y agrupado. Toda la información recopilada se visualiza bajo pines numerados, con una salida en un archivo HTML simple, altamente compatible y portable.  También genera dentro del mapa vínculos directos a los archivos de acuerdo a la ruta absoluta.
 
 > [!TIP]
-> Preview del mapa: https://gershu.ar/playground/gDroneMapper_20251019_091450.html
+> Click aquí para acceder un ejemplo real de un mapa generado: [DEMO](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)<br>
 
 > [!NOTE]
 > Testeado con archivos generados por un DJI Air 3S.  gDroneMapper debería ser compatible con todos los modelos de DJI.  Otras marcas también en tanto y en cuanto respeten la nomenclatura en el perfil EXIF/XMP de los archivos.
@@ -117,7 +117,7 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 
 - Distribución Simple: La aplicación consta de solo tres archivos: el backend, el frontend y el archivo de configuración.
 
-- Tecnología / Arquitectura: El backend (forrest.exe, procesador) fue codeado y compilado en Golang (EXE comprimido con UPX); ExifTool[^2] está embebido y se despliega en la primera ejecución.  El frontend (gDroneMapper.exe, GUI) fue codeado en C# + .NET 9.0 + WinForms (EXE sin comprimir, todos los runtimes de .NET 9.0 necesarios están embebidos en el ejecutable, por ello el archivo tan extenso).
+- Tecnología / Arquitectura: El backend (forrest.exe, procesador) fue codeado y compilado en Go (EXE comprimido con UPX); ExifTool[^2] está embebido y se despliega en la primera ejecución.  El frontend (gDroneMapper.exe, GUI) fue codeado en C# + .NET 9.0 + WinForms (EXE sin comprimir, todos los runtimes de .NET 9.0 necesarios están embebidos en el ejecutable, por ello el archivo tan extenso).
 
 ## ¡Empecemos! (Windows 10/11 x64)
 - **VERSIÓN CON INSTALADOR** (recomendada)<br>
