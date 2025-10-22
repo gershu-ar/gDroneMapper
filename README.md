@@ -69,7 +69,7 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 <a name="download"></a>
  ## 💾 Let's get started! (Windows 10/11 x64)
 - **INSTALLER VERSION** (recommended)<br>
-  Download [gDroneMapper_10Final_x64_Installer.msi](https://raw.githubusercontent.com/gershu-ar/gDroneMapper/main/gDroneMapper_10Final_x64_Installer.msi) and run to install on your computer.<br>This will generate a desktop shortcut for easy app access.<br>
+  Download [gDroneMapper_10Final_x64_Installer.msi](https://raw.githubusercontent.com/gershu-ar/gDroneMapper/main/gDroneMapper_10Final_x64_Installer.msi) and run to install on your computer.<br>This will generate a desktop shortcut for easy app access.<br><br>
 - **MANUAL / PORTABLE VERSION**<br>
   Download [gDroneMapper_10Final_x64.zip](https://raw.githubusercontent.com/gershu-ar/gDroneMapper/main/gDroneMapper_10Final_x64.zip), extract the files to a folder of your choice, and run "gDroneMapper.exe" to use.<br>You can also run "forrest.exe" by itself (it's the backend), it will read the configuration from "config.json" and process it accordingly.
 
@@ -159,7 +159,7 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
  <a name="download_es"></a>
 ## ¡Empecemos! (Windows 10/11 x64)
 - **VERSIÓN CON INSTALADOR** (recomendada)<br>
-  Descarga [gDroneMapper_10Final_x64_Installer.msi](https://raw.githubusercontent.com/gershu-ar/gDroneMapper/main/gDroneMapper_10Final_x64_Installer.msi) y ejecutalo para instalar en tu computadora.<br>Esto generará un accceso directo en tu escritorio para rápido acceso.<br>
+  Descarga [gDroneMapper_10Final_x64_Installer.msi](https://raw.githubusercontent.com/gershu-ar/gDroneMapper/main/gDroneMapper_10Final_x64_Installer.msi) y ejecutalo para instalar en tu computadora.<br>Esto generará un accceso directo en tu escritorio para rápido acceso.<br><br>
 - **VERSIÓN MANUAL / PORTABLE**<br>
   Descarga [gDroneMapper_10Final_x64.zip](https://raw.githubusercontent.com/gershu-ar/gDroneMapper/main/gDroneMapper_10Final_x64.zip), extrae los archivos en la carpeta de tu elección, y ejecuta "gDroneMapper.exe" para utilizar<br>También podés ejecutar "forrest.exe" por su cuenta (es el backend): leerá la configuración en config.json y ejecutará acorde.
 
