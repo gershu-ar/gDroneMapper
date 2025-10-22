@@ -8,13 +8,13 @@
 - [Intro](#english)
 - [What is gDroneMapper?](#gdrone)
 - [Key features](#keyf)
-- [Download](#download)
+- **[Download](#download)**
 - [Support / Feedback](#support)
 ### 🇦🇷 Español
 - [Introducción](#espanol)
 - [¿Qué es gDroneMapper?](#gdrone_es)
 - [Características claves](#keyf_es)
-- [Descargar](#download_es)
+- **[Descargar](#download_es)**
 - [Soporte / Comentarios](#support_es)
 ****************
 
