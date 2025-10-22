@@ -19,7 +19,7 @@ Published: **19/OCT/2025**
 ❓ Are you fed úp of manually plotting hundreds of pictures and videos onto a map to reconstruct a serious forensic analysis or to solve a problem only to discover you cannot export the information without **paying first**?<br><br>
 ⁉️ Is the task of mapping terrain and keeping track of hundreds of generated files making your work tedious and cumbersome while your cat demands his litter to be cleaned **[right meow](https://www.youtube.com/watch?v=5EkwBEL4MZw)**?
 
-## 🚁 gDroneMapper is here to save the day.
+## gDroneMapper is here to save the day.
 It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.  It also generates in-map direct links to the absolute paths where the original files are located.
 
 > [!TIP]
