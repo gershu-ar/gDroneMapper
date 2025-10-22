@@ -10,8 +10,8 @@
 - [Key features](#keyf)
 - [Download](#download)
 - [Support / Feedback](#support)
-### (2) [🇦🇷 Español](#espanol)
-- [Introducción](#spanish)
+### (2) 🇦🇷 Español
+- [Introducción](#espanol)
 - [¿Qué es gDroneMapper?](#gdrone_es)
 - [Características claves](#keyf_es)
 - [Descargar](#download_es)
