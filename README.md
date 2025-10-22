@@ -22,7 +22,7 @@ Published: **19/OCT/2025**
 It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.  It also generates in-map direct links to the absolute paths where the original files are located.
 
 > [!TIP]
-> Click here for a live example of a generated map: [DEMO](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)<br>
+> Click here for a live example of a generated map: [DEMOSTRATION](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)<br>
 
 > [!NOTE] 
 > Tested with files produced by a DJI Air 3S.  gDroneMapper should be compatible with all DJI generated pictures and videos.  Other brands too if standarized EXIF/XMP information is present.
@@ -50,7 +50,7 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 
 - Technology Stack / Architecture: The backend (processor) is coded and compiled in Go (EXE compressed with UPX); ExifTool[^1] runtimes are embeded and deployed on first run.  The frontend (GUI) is coded in C# + .NET 9.0 + WinForms (uncompressed EXE, all required .NET 9.0 runtimes are self contained in the executable file, thus making a larger file).
 
-## Let's get started! (Windows 10/11 x64)
+## 💾 Let's get started! (Windows 10/11 x64)
 - **INSTALLER VERSION** (recommended)<br>
   Download [gDroneMapper_10Final_x64_Installer.msi](https://raw.githubusercontent.com/gershu-ar/gDroneMapper/main/gDroneMapper_10Final_x64_Installer.msi) and run to install on your computer.<br>This will generate a desktop shortcut for easy app access.<br>
 - **MANUAL / PORTABLE VERSION**<br>
@@ -62,10 +62,21 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 > [!TIP]
 > If you are unsure, you can compile the source code yourself (the /SOURCE/ folder contains both the back and frontend).
  
-> [!NOTE]
-> **KNOWN BUGS**<br>
->  - None<br><br>
-> If you find a bug, want to give feedback or ask for a feature, feel free to contact me directly on [Instagram](https://www.instagram.com/gershu.ar) via a direct message.<br>I will be setting up better direct contact tools shortly.
+## 🐛 **Known bugs / Support / Feedback**<br>
+
+Frontend:<br>
+* A few minor validations and GUI retouches required: working on version 1.1;
+* Not known bugs.
+
+Backend:<br>
+* Needs some polishing in error handling;
+* Not known bugs.
+
+> [!IMPORTANT]
+> **Support / Report an Issue**: Request assistance [HERE](https://gershu.ar/jenny.html).<br>
+> **Feedback / Requests**: Send your feedback [HERE](https://gershu.ar/bubba.html).<br>
+> Thank you.
+<br><br>
 
 Coded with ❤️ in 🇦🇷 Argentina<br>
 www.gershu.ar
@@ -91,7 +102,7 @@ Publicada: **19/OCT/2025**
 Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría detallados para generar un mapa único y agrupado. Toda la información recopilada se visualiza bajo pines numerados, con una salida en un archivo HTML simple, altamente compatible y portable.  También genera dentro del mapa vínculos directos a los archivos de acuerdo a la ruta absoluta.
 
 > [!TIP]
-> Click aquí para acceder un ejemplo real de un mapa generado: [DEMO](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)<br>
+> Click aquí para acceder un ejemplo real de un mapa generado: [DEMOSTRACIÓN](https://gershu.ar/playground/gDroneMapper_20251019_183049.html)<br>
 
 > [!NOTE]
 > Testeado con archivos generados por un DJI Air 3S.  gDroneMapper debería ser compatible con todos los modelos de DJI.  Otras marcas también en tanto y en cuanto respeten la nomenclatura en el perfil EXIF/XMP de los archivos.
@@ -131,12 +142,22 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 > [!TIP]
 > Si no estás segurx, puedes compilar el código tú mismx (la carpeta /SOURCE/ contiene el código fuente tanto para el back como para el frontend).
 
-> [!NOTE]
-> **ERRORES CONOCIDOS**<br>
-> - Ninguno<br><br>
-> Si encontrás un bug, querés hacerme llegar comentarios o solicitar una función, sentite libre de contactarme en [Instagram](https://www.instagram.com/gershu.ar) a través de un mensaje directo.<br>Estaré implementando mejores herramientas de contacto directo en breve.
+## 🐛 **Errores conocidos / Soporte / Comentarios**<br>
 
-Codedo con ❤️ en 🇦🇷 Argentina<br>
+Frontend:<br>
+* Se requieren algunas validaciones y retoques en la GUI: ya trabajando en la versión 1.1;<br>
+* Sin errores conocidos.
+
+Backend:<br>
+* Se necesita pulir un poco el reporte de errores;<br>
+* Sin errores conocidos.
+
+> [!IMPORTANT]
+> **Soporte / Reportar un problema**: Solicitá asistencia [AQUÍ](https://gershu.ar/jenny.html).<br>
+> **Enviar Comentarios / Pedidos**: Enviá tu mensaje [AQUÍ](https://gershu.ar/bubba.html).<br>
+> Gracias.
+
+Codeado con ❤️ en 🇦🇷 Argentina<br>
 www.gershu.ar
 
 Los códigos fuente y ejecutables compilados de gDroneMapper para Windows se proporcionan "tal cual".<br>
