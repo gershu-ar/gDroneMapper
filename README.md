@@ -6,9 +6,10 @@
 ## INDEX / ÍNDICE
 ### (1) 🇺🇸 English<br>
 - [Intro](#english)
-- [What is gDroneMapper?](#gDroneMapper-is-here-to-save-the-day)
-- [Key features](#KeyFeatures)
-- [Download](#Lets-get*started)
+- [What is gDroneMapper?](#gdrone)
+- [Key features](#keyf)
+- [Download](#download)
+- [Support / Feedback](#support)
 ### (2) [🇦🇷 Español](#espanol)
 ****************
 
@@ -22,7 +23,8 @@ Published: **19/OCT/2025**
 ❓ Are you fed úp of manually plotting hundreds of pictures and videos onto a map to reconstruct a serious forensic analysis or to solve a problem only to discover you cannot export the information without **paying first**?<br><br>
 ⁉️ Is the task of mapping terrain and keeping track of hundreds of generated files making your work tedious and cumbersome while your cat demands his litter to be cleaned **[right meow](https://www.youtube.com/watch?v=5EkwBEL4MZw)**?
 
-🚁 ## gDroneMapper is here to save the day.
+<a name="gdrone"></a>
+## 🚁 gDroneMapper is here to save the day.
 It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemetry data to generate a unique, clustered map. All the collected information is visualized under numbered pins, outputting a simple, highly compatible, portable, single-file HTML map.  It also generates in-map direct links to the absolute paths where the original files are located.
 
 > [!TIP]
@@ -31,7 +33,10 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 > [!NOTE] 
 > Tested with files produced by a DJI Air 3S.  gDroneMapper should be compatible with all DJI generated pictures and videos.  Other brands too if standarized EXIF/XMP information is present.
 
-📍 ## Key Features:
+[[Up]](#up)
+
+<a name="keyf"></a>
+## 📍 Key Features:
 
 - Visual Coverage: For each image file, heading lines and cones of view (POVs) are created and graphically represented. This is based on mathematical calculations of the extracted data, providing a sense of visual coverage and the precise center of the image for reference. (This feature is available only for pictures, not videos, due to limitations in DJI's proprietary format. However, video pins and core telemetry are still presented.)
 
@@ -54,6 +59,9 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 
 - Technology Stack / Architecture: The backend (processor) is coded and compiled in Go (EXE compressed with UPX); ExifTool[^1] runtimes are embeded and deployed on first run.  The frontend (GUI) is coded in C# + .NET 9.0 + WinForms (uncompressed EXE, all required .NET 9.0 runtimes are self contained in the executable file, thus making a larger file).
 
+[[Up]](#up)
+
+<a name="download"></a>
  💾 ## Let's get started! (Windows 10/11 x64)
 - **INSTALLER VERSION** (recommended)<br>
   Download [gDroneMapper_10Final_x64_Installer.msi](https://raw.githubusercontent.com/gershu-ar/gDroneMapper/main/gDroneMapper_10Final_x64_Installer.msi) and run to install on your computer.<br>This will generate a desktop shortcut for easy app access.<br>
@@ -65,7 +73,11 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 
 > [!TIP]
 > If you are unsure, you can compile the source code yourself (the /SOURCE/ folder contains both the back and frontend).
- 
+
+
+[[Up]](#up)
+
+ <a name="support"></a>
 ## 🐛 **Known bugs / Support / Feedback**<br>
 
 Frontend:<br>
