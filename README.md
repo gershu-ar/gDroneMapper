@@ -97,7 +97,6 @@ Backend:<br>
 > **Support / Report an Issue**: Request assistance [HERE](https://gershu.ar/jenny.html).<br>
 > **Feedback / Requests**: Send your feedback [HERE](https://gershu.ar/bubba.html).<br>
 > Thank you.
-<br><br>
 
 Coded with ❤️ in 🇦🇷 Argentina<br>
 www.gershu.ar
