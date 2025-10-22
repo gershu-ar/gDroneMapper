@@ -4,13 +4,13 @@
 
 ****************
 ## INDEX / ÍNDICE
-### (1) 🇺🇸 English<br>
+### 🇺🇸 English<br>
 - [Intro](#english)
 - [What is gDroneMapper?](#gdrone)
 - [Key features](#keyf)
 - [Download](#download)
 - [Support / Feedback](#support)
-### (2) 🇦🇷 Español
+### 🇦🇷 Español
 - [Introducción](#espanol)
 - [¿Qué es gDroneMapper?](#gdrone_es)
 - [Características claves](#keyf_es)
@@ -19,7 +19,7 @@
 ****************
 
 <a name="english"></a>
-# (1) gDroneMapper - 🇺🇸 English
+# gDroneMapper - 🇺🇸 English
 
 Current version: **1.0 Final**<br>
 Published: **19/OCT/2025**
@@ -110,7 +110,7 @@ gDroneMapper's source codes and compiled Windows executables are provided "as is
 
 *********
 <a name="espanol"></a>
-# (2) gDroneMapper - 🇦🇷 Español
+# gDroneMapper - 🇦🇷 Español
 
 Versión actual: **1.0 Final**<br>
 Publicada: **19/OCT/2025**
