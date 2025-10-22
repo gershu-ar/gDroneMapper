@@ -62,7 +62,7 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 [[Up]](#up)
 
 <a name="download"></a>
- 💾 ## Let's get started! (Windows 10/11 x64)
+ ## 💾 Let's get started! (Windows 10/11 x64)
 - **INSTALLER VERSION** (recommended)<br>
   Download [gDroneMapper_10Final_x64_Installer.msi](https://raw.githubusercontent.com/gershu-ar/gDroneMapper/main/gDroneMapper_10Final_x64_Installer.msi) and run to install on your computer.<br>This will generate a desktop shortcut for easy app access.<br>
 - **MANUAL / PORTABLE VERSION**<br>
