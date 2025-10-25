@@ -71,7 +71,7 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 - **INSTALLER VERSION** (recommended)<br>
   Download from GitHub or from Google Drive: [gDroneMapper_10Final_x64_Installer.msi](https://drive.google.com/file/d/129_nut36zwGy-GMyL9r0209P_6Y7Ma88/view?usp=sharing) and run to install on your computer.<br>This will generate a desktop shortcut for easy app access.<br><br>
 - **MANUAL / PORTABLE VERSION**<br>
-  Download from GitHub or from Google Drive:_ [gDroneMapper_10Final_x64.zip](https://drive.google.com/file/d/1WNMindkOS8RkoLThOGfo2fWdZYRwdWZU/view?usp=sharing), extract the files to a folder of your choice, and run "gDroneMapper.exe" to use.<br>You can also run "forrest.exe" by itself (it's the backend), it will read the configuration from "config.json" and process it accordingly.
+  Download from GitHub or from Google Drive: [gDroneMapper_10Final_x64.zip](https://drive.google.com/file/d/1WNMindkOS8RkoLThOGfo2fWdZYRwdWZU/view?usp=sharing), extract the files to a folder of your choice, and run "gDroneMapper.exe" to use.<br>You can also run "forrest.exe" by itself (it's the backend), it will read the configuration from "config.json" and process it accordingly.
 
 > [!WARNING]
 > If Windows's SmartScreen or any similar prompt appears, simply bypass it. This is a safe application and contains no viruses.
