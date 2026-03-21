@@ -67,17 +67,17 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 [[Up]](#up)
 
 <a name="download"></a>
- ## 💾 Let's get started! (Windows 10/11 x64)
+ ## 💾 Compiled versions - Let's get started! (Windows 10/11 x64)
 - **INSTALLER VERSION** (recommended)<br>
-  Download from GitHub or from Google Drive: [gDroneMapper_10Final_x64_Installer.msi](https://drive.google.com/file/d/129_nut36zwGy-GMyL9r0209P_6Y7Ma88/view?usp=sharing) and run to install on your computer.<br>This will generate a desktop shortcut for easy app access.<br><br>
+  Download from Google Drive: [gDroneMapper_10Final_x64_Installer.msi](https://drive.google.com/file/d/1WOuEb4uEdthGYXB147Ozk2bCEHNBDAre/view?usp=drive_link) and run to install on your computer.<br>This will generate a desktop shortcut for easy app access.<br><br>
 - **MANUAL / PORTABLE VERSION**<br>
-  Download from GitHub or from Google Drive: [gDroneMapper_10Final_x64.zip](https://drive.google.com/file/d/1WNMindkOS8RkoLThOGfo2fWdZYRwdWZU/view?usp=sharing), extract the files to a folder of your choice, and run "gDroneMapper.exe" to use.<br>You can also run "forrest.exe" by itself (it's the backend), it will read the configuration from "config.json" and process it accordingly.
+  Download from Google Drive: [gDroneMapper_10Final_x64.zip](https://drive.google.com/file/d/1YAWp3DNyQGjtCJl4xWQW50qUIIiovKMs/view?usp=drive_link), extract the files to a folder of your choice, and run "gDroneMapper.exe" to use.<br>You can also run "forrest.exe" by itself (it's the backend), it will read the configuration from "config.json" and process it accordingly.
+
+> [!TIP]
+> If you are unsure or you want to fool around with the code, you can compile from the source code yourself (the /SOURCE/ folder contains both the back and frontend).
 
 > [!WARNING]
 > If Windows's SmartScreen or any similar prompt appears, simply bypass it. This is a safe application and contains no viruses.
-
-> [!TIP]
-> If you are unsure, you can compile the source code yourself (the /SOURCE/ folder contains both the back and frontend).
 
 
 [[Up]](#up)
@@ -94,8 +94,7 @@ Backend:<br>
 * Not known bugs.
 
 > [!IMPORTANT]
-> **Support / Report an Issue**: Request assistance [HERE](https://gershu.ar/jenny.html).<br>
-> **Feedback / Requests**: Send your feedback [HERE](https://gershu.ar/bubba.html).<br>
+> For **support / report an Issue** or to **send feedback / requests** use the [Issues](https://github.com/gershu-ar/gDroneMapper/issues) section.
 > Thank you.
 
 Coded with ❤️ in 🇦🇷 Argentina<br>
@@ -157,17 +156,17 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
 [[Subir]](#up)
 
  <a name="download_es"></a>
-## ¡Empecemos! (Windows 10/11 x64)
+## Versión compilada - ¡Empecemos! (Windows 10/11 x64)
 - **VERSIÓN CON INSTALADOR** (recomendada)<br>
-  Descarga de GitHub o de Google Drive: [gDroneMapper_10Final_x64_Installer.msi](https://drive.google.com/file/d/129_nut36zwGy-GMyL9r0209P_6Y7Ma88/view?usp=sharing) y ejecutalo para instalar en tu computadora.<br>Esto generará un acceso directo en tu escritorio para fácil acceso.<br><br>
+  Descarga de Google Drive [gDroneMapper_10Final_x64_Installer.msi](https://drive.google.com/file/d/1WOuEb4uEdthGYXB147Ozk2bCEHNBDAre/view?usp=sharing) y ejecutalo para instalar en tu computadora.<br>Esto generará un acceso directo en tu escritorio para fácil acceso.<br><br>
 - **VERSIÓN MANUAL / PORTABLE**<br>
-  Descarga de GitHub o de Google Drive: [gDroneMapper_10Final_x64.zip](https://drive.google.com/file/d/1WNMindkOS8RkoLThOGfo2fWdZYRwdWZU/view?usp=sharing), extrae los archivos en la carpeta de tu elección, y ejecuta "gDroneMapper.exe" para utilizar<br>También podés ejecutar "forrest.exe" por su cuenta (es el backend): leerá la configuración en config.json y ejecutará acorde.
+  Descarga de Google Drive: [gDroneMapper_10Final_x64.zip](https://drive.google.com/file/d/1YAWp3DNyQGjtCJl4xWQW50qUIIiovKMs/view?usp=drive_link), extrae los archivos en la carpeta de tu elección, y ejecuta "gDroneMapper.exe" para utilizar<br>También podés ejecutar "forrest.exe" por su cuenta (es el backend): leerá la configuración en config.json y ejecutará acorde.
+
+> [!TIP]
+> Si no estás segurx o quieres jugar con el código, puedes compilar el código tú mismx (la carpeta /SOURCE/ contiene el código fuente tanto para el back como para el frontend).
 
 > [!WARNING]
 > Si aparece Windows SmartScreen o cualquier aviso similar, simplemente ignóralo. Es una aplicación segura y no contiene virus.
-
-> [!TIP]
-> Si no estás segurx, puedes compilar el código tú mismx (la carpeta /SOURCE/ contiene el código fuente tanto para el back como para el frontend).
 
 [[Subir]](#up)
 
@@ -183,8 +182,7 @@ Backend:<br>
 * Sin errores conocidos.
 
 > [!IMPORTANT]
-> **Soporte / Reportar un problema**: Solicitá asistencia [AQUÍ](https://gershu.ar/jenny.html).<br>
-> **Enviar Comentarios / Pedidos**: Enviá tu mensaje [AQUÍ](https://gershu.ar/bubba.html).<br>
+> Para **soporte / reportar un problema** o **enviar Comentarios / pedidos** servite de abrir un [Issue](https://github.com/gershu-ar/gDroneMapper/issues) aquí en GitHub.<br>
 > Gracias.
 
 Codeado con ❤️ en 🇦🇷 Argentina<br>
