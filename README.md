@@ -69,9 +69,9 @@ It processes DNG, JPG, and MP4 files in batch by folder, extracting rich telemet
 <a name="download"></a>
  ## 💾 Compiled versions - Let's get started! (Windows 10/11 x64)
 - **INSTALLER VERSION** (recommended)<br>
-  Download from Google Drive: [gDroneMapper_10Final_x64_Installer.msi](https://drive.google.com/file/d/1WOuEb4uEdthGYXB147Ozk2bCEHNBDAre/view?usp=drive_link) and run to install on your computer.<br>This will generate a desktop shortcut for easy app access.<br><br>
+  (MSI) Download from [Releases](https://github.com/gershu-ar/gDroneMapper/releases) and run to install on your computer.<br>This will generate a desktop shortcut for easy app access.<br><br>
 - **MANUAL / PORTABLE VERSION**<br>
-  Download from Google Drive: [gDroneMapper_10Final_x64.zip](https://drive.google.com/file/d/1YAWp3DNyQGjtCJl4xWQW50qUIIiovKMs/view?usp=drive_link), extract the files to a folder of your choice, and run "gDroneMapper.exe" to use.<br>You can also run "forrest.exe" by itself (it's the backend), it will read the configuration from "config.json" and process it accordingly.
+  (ZIP) Download from [Releases](https://github.com/gershu-ar/gDroneMapper/releases), extract the files to a folder of your choice, and run "gDroneMapper.exe" to use.<br>You can also run "forrest.exe" by itself (it's the backend), it will read the configuration from "config.json" and process it accordingly.
 
 > [!TIP]
 > If you are unsure or you want to fool around with the code, you can compile from the source code yourself (the /SOURCE/ folder contains both the back and frontend).
@@ -94,7 +94,7 @@ Backend:<br>
 * Not known bugs.
 
 > [!IMPORTANT]
-> For **support / report an Issue** or to **send feedback / requests** use the [Issues](https://github.com/gershu-ar/gDroneMapper/issues) section.
+> For **support / report an Issue** or to **send feedback / requests** use the [Issues](https://github.com/gershu-ar/gDroneMapper/issues) section, I usually reply same day.
 > Thank you.
 
 Coded with ❤️ in 🇦🇷 Argentina<br>
@@ -158,9 +158,9 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
  <a name="download_es"></a>
 ## Versión compilada - ¡Empecemos! (Windows 10/11 x64)
 - **VERSIÓN CON INSTALADOR** (recomendada)<br>
-  Descarga de Google Drive [gDroneMapper_10Final_x64_Installer.msi](https://drive.google.com/file/d/1WOuEb4uEdthGYXB147Ozk2bCEHNBDAre/view?usp=sharing) y ejecutalo para instalar en tu computadora.<br>Esto generará un acceso directo en tu escritorio para fácil acceso.<br><br>
+  (MSI) Descarga de Google Drive [Versiones](https://github.com/gershu-ar/gDroneMapper/releases) y ejecutalo para instalar en tu computadora.<br>Esto generará un acceso directo en tu escritorio para fácil acceso.<br><br>
 - **VERSIÓN MANUAL / PORTABLE**<br>
-  Descarga de Google Drive: [gDroneMapper_10Final_x64.zip](https://drive.google.com/file/d/1YAWp3DNyQGjtCJl4xWQW50qUIIiovKMs/view?usp=drive_link), extrae los archivos en la carpeta de tu elección, y ejecuta "gDroneMapper.exe" para utilizar<br>También podés ejecutar "forrest.exe" por su cuenta (es el backend): leerá la configuración en config.json y ejecutará acorde.
+  (ZIP) Descarga desde [Versiones](https://github.com/gershu-ar/gDroneMapper/releases), extrae los archivos en la carpeta de tu elección, y ejecuta "gDroneMapper.exe" para utilizar<br>También podés ejecutar "forrest.exe" por su cuenta (es el backend): leerá la configuración en config.json y ejecutará acorde.
 
 > [!TIP]
 > Si no estás segurx o quieres jugar con el código, puedes compilar el código tú mismx (la carpeta /SOURCE/ contiene el código fuente tanto para el back como para el frontend).
@@ -182,7 +182,7 @@ Backend:<br>
 * Sin errores conocidos.
 
 > [!IMPORTANT]
-> Para **soporte / reportar un problema** o **enviar Comentarios / pedidos** servite de abrir un [Issue](https://github.com/gershu-ar/gDroneMapper/issues) aquí en GitHub.<br>
+> Para **soporte / reportar un problema** o **enviar Comentarios / pedidos** servite de abrir una [Incidencia](https://github.com/gershu-ar/gDroneMapper/issues) aquí en GitHub, habitualmente respondo en el día.<br>
 > Gracias.
 
 Codeado con ❤️ en 🇦🇷 Argentina<br>
