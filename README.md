@@ -158,7 +158,7 @@ Procesa archivos DNG, JPG y MP4 por carpeta, extrayendo datos de telemetría det
  <a name="download_es"></a>
 ## Versión compilada - ¡Empecemos! (Windows 10/11 x64)
 - **VERSIÓN CON INSTALADOR** (recomendada)<br>
-  (MSI) Descarga de Google Drive [Versiones](https://github.com/gershu-ar/gDroneMapper/releases) y ejecutalo para instalar en tu computadora.<br>Esto generará un acceso directo en tu escritorio para fácil acceso.<br><br>
+  (MSI) Descarga desde [Versiones](https://github.com/gershu-ar/gDroneMapper/releases) y ejecutalo para instalar en tu computadora.<br>Esto generará un acceso directo en tu escritorio para fácil acceso.<br><br>
 - **VERSIÓN MANUAL / PORTABLE**<br>
   (ZIP) Descarga desde [Versiones](https://github.com/gershu-ar/gDroneMapper/releases), extrae los archivos en la carpeta de tu elección, y ejecuta "gDroneMapper.exe" para utilizar<br>También podés ejecutar "forrest.exe" por su cuenta (es el backend): leerá la configuración en config.json y ejecutará acorde.
 
