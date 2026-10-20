@@ -1,3 +1,9 @@
+![New Version Planned](https://img.shields.io/badge/[NEW_VERSION_PLANNED]-007934?style=flat&logoColor=white)<BR>
+**OCTOBER 2026**<br>
+I'm planning a new version for gDroneMapper, better UI, better everything.  Locally run IA will be involved for pictures and videos analysis as well other goodies.  Yet to finish design before stepping into development.  Will update.  Peace.
+
+----------
+
 <img src="https://github.com/gershu-ar/gDroneMapper/blob/main/Screenshot_1.png?raw=true" height="300"> <img src="https://github.com/gershu-ar/gDroneMapper/blob/main/Screenshot_3.png?raw=true" width="500">
 
 <a name="up"></a>
